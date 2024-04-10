@@ -1,0 +1,101 @@
+Task Id,Table PNG,Table Rendering,Dataset Number,Topic,Condition,Repetition,Task,T-Header,T-Column,T-par1,T-Prompt ,T-answer,Answer-Col-or-Row,T3 A2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS1_anime_plain1.png,33,1,anime,plain,1,Filter,Score,J,80,"In the Score column, count how many entries exceed the value of 80",7,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS2_anime_plain2.png,34,2,anime,plain,2,Filter,"Plan
+ to Watch",I,70,"In the Plan
+ to Watch column, count how many entries exceed the value of 70",6,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS3_anime_plain3.png,35,3,anime,plain,3,Filter,Popularity,G,88,"In the Popularity column, count how many entries exceed the value of 88",5,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS4_anime_plain4.png,36,4,anime,plain,4,Filter,Score,K,43,"In the Score column, count how many entries exceed the value of 43",8,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS9_candy_color1.png,9,9,candy,color,1,Filter,Hard,K,66,"In the Hard column, count how many entries exceed the value of 66",5,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS10_candy_color2.png,10,10,candy,color,2,Filter,"Sugar
+Percent",J,38,"In the Sugar
+Percent column, count how many entries exceed the value of 38",8,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS11_candy_color3.png,11,11,candy,color,3,Filter,Caramel,G,50,"In the Caramel column, count how many entries exceed the value of 50",7,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS12_candy_color4.png,12,12,candy,color,4,Filter,"Sugar
+Percent",I,57,"In the Sugar
+Percent column, count how many entries exceed the value of 57",6,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS13_movie_zebra1.png,29,13,movie,zebra,1,Filter,Fandango,H,70,"In the Fandango column, count how many entries exceed the value of 70",5,H,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS14_movie_zebra2.png,30,14,movie,zebra,2,Filter,PluggedIn,I,76,"In the PluggedIn column, count how many entries exceed the value of 76",8,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS15_movie_zebra3.png,31,15,movie,zebra,3,Filter,Hulu,J,54,"In the Hulu column, count how many entries exceed the value of 54",7,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS16_movie_zebra4.png,32,16,movie,zebra,4,Filter,Metacritic,G,57,"In the Metacritic column, count how many entries exceed the value of 57",6,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS5_cereal_bar1.png,53,5,cereal,bar,1,Filter,Carbo,I,57,"In the Carbo column, count how many entries exceed the value of 57",8,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS6_cereal_bar2.png,54,6,cereal,bar,2,Filter,Sodium,H,70,"In the Sodium column, count how many entries exceed the value of 70",5,H,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS7_cereal_bar3.png,55,7,cereal,bar,3,Filter,Carbo,J,45,"In the Carbo column, count how many entries exceed the value of 45",6,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,DS8_cereal_bar4.png,56,8,cereal,bar,4,Filter,Sugars,K,60,"In the Sugars column, count how many entries exceed the value of 60",7,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS1_anime_plain1.png,33,1,anime,plain,1,Correlation,Ranked,C,,Determine which of the last 5 columns are positively correlated with the column named Ranked,Popularity,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS2_anime_plain2.png,34,2,anime,plain,2,Correlation,Dropped,C,,Determine which of the last 5 columns are positively correlated with the column named Dropped,Members,L,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS3_anime_plain3.png,35,3,anime,plain,3,Correlation,"Plan
+ to Watch",C,,"Determine which of the last 5 columns are positively correlated with the column named Plan
+ to Watch",Watching,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS4_anime_plain4.png,36,4,anime,plain,4,Correlation,Episodes,C,,Determine which of the last 5 columns are positively correlated with the column named Episodes,Popularity,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS9_candy_color1.png,9,9,candy,color,1,Correlation,Pluribus,C,,Determine which of the last 5 columns are positively correlated with the column named Pluribus,Rating,L,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS10_candy_color2.png,10,10,candy,color,2,Correlation,Price,C,,Determine which of the last 5 columns are positively correlated with the column named Price,"Sugar
+Percent",J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS11_candy_color3.png,11,11,candy,color,3,Correlation,Pluribus,C,,Determine which of the last 5 columns are positively correlated with the column named Pluribus,Chocolate,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS12_candy_color4.png,12,12,candy,color,4,Correlation,Bar,C,,Determine which of the last 5 columns are positively correlated with the column named Bar,"Sugar
+Percent",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS13_movie_zebra1.png,29,13,movie,zebra,1,Correlation,PluggedIn,C,,Determine which of the last 5 columns are positively correlated with the column named PluggedIn,Roger Ebert,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS14_movie_zebra2.png,30,14,movie,zebra,2,Correlation,Netflix,C,,Determine which of the last 5 columns are positively correlated with the column named Netflix,Hulu,L,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS15_movie_zebra3.png,31,15,movie,zebra,3,Correlation,Roger Ebert,C,,Determine which of the last 5 columns are positively correlated with the column named Roger Ebert,PluggedIn,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS16_movie_zebra4.png,32,16,movie,zebra,4,Correlation,PluggedIn,C,,Determine which of the last 5 columns are positively correlated with the column named PluggedIn,Naver,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS5_cereal_bar1.png,53,5,cereal,bar,1,Correlation,Potassium,C,,Determine which of the last 5 columns are positively correlated with the column named Potassium,Protein,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS6_cereal_bar2.png,54,6,cereal,bar,2,Correlation,Protein,C,,Determine which of the last 5 columns are positively correlated with the column named Protein,Potassium,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS7_cereal_bar3.png,55,7,cereal,bar,3,Correlation,Fat,C,,Determine which of the last 5 columns are positively correlated with the column named Fat,Carbo,J,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,DS8_cereal_bar4.png,56,8,cereal,bar,4,Correlation,Protein,C,,Determine which of the last 5 columns are positively correlated with the column named Protein,Fat,L,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS1_anime_plain1.png,33,1,anime,plain,1,Sort,Popularity,I,,"In the Popularity column, name the animes with the highest 3 values in descending order ",Mobile Phone-King Ranking-First Stage,18 17 28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS2_anime_plain2.png,34,2,anime,plain,2,Sort,Members,L,,"In the Members column, name the animes with the highest 3 values in descending order ",Cursing Notebook-Best Humanity-Magical Warfare,12 18 4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS3_anime_plain3.png,35,3,anime,plain,3,Sort,Ranked,J,,"In the Ranked column, name the animes with the highest 3 values in descending order ",Ultra Generation-Connect Angel-Magical Warfare,5 10 11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS4_anime_plain4.png,36,4,anime,plain,4,Sort,Score,K,,"In the Score column, name the animes with the highest 3 values in descending order ",Ultra Generation-Mobile Phone-Ultimate horror,6 24 22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS9_candy_color1.png,9,9,candy,color,1,Sort,Bar,J,,"In the Bar column, name the candys with the highest 3 values in descending order ",Good Bar-Fruit Chews-Boston Beans,25 22 5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS10_candy_color2.png,10,10,candy,color,2,Sort,Fruity,L,,"In the Fruity column, name the candys with the highest 3 values in descending order ",Life Savers-Fun Dips-Fruit Chews,26 11 20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS11_candy_color3.png,11,11,candy,color,3,Sort,Chocolate,K,,"In the Chocolate column, name the candys with the highest 3 values in descending order ",Laffy Taffy-Good Bar-Milk Duds,5 28 27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS12_candy_color4.png,12,12,candy,color,4,Sort,"Sugar
+Percent",I,,"In the Sugar
+Percent column, name the candys with the highest 3 values in descending order ",Good Bar-Fruit Chews-Boston Beans,28 23 29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS13_movie_zebra1.png,29,13,movie,zebra,1,Sort,Roger Ebert,I,,"In the Roger Ebert column, name the movies with the highest 3 values in descending order ",End Tour-Black White-My Dreams,21 16 17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS14_movie_zebra2.png,30,14,movie,zebra,2,Sort,Fandango,K,,"In the Fandango column, name the movies with the highest 3 values in descending order ",Black Sea-Water Diviner-Hunting Ground,5 21 20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS15_movie_zebra3.png,31,15,movie,zebra,3,Sort,"Rotten
+Tomatoes",H,,"In the Rotten
+Tomatoes column, name the movies with the highest 3 values in descending order ",Crazy Adventure-Fantastic Four-Black Sea,10 9 20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS16_movie_zebra4.png,32,16,movie,zebra,4,Sort,Naver,J,,"In the Naver column, name the movies with the highest 3 values in descending order ",Wild Tales-Teenage Girl -My Dreams,18 6 10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS5_cereal_bar1.png,53,5,cereal,bar,1,Sort,Calories,H,,"In the Calories column, name the cereals with the highest 3 values in descending order ",Lucky Charms-Smile Maker-Wonderful Chex,5 19 20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS6_cereal_bar2.png,54,6,cereal,bar,2,Sort,Potassium,I,,"In the Potassium column, name the cereals with the highest 3 values in descending order ",Froot Loops-Almond Delight-Post Nat,22 3 7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS7_cereal_bar3.png,55,7,cereal,bar,3,Sort,Fiber,K,,"In the Fiber column, name the cereals with the highest 3 values in descending order ",Cap Crunch-Smile Maker-Colorful Bran,18 15 23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,DS8_cereal_bar4.png,56,8,cereal,bar,4,Sort,Score,J,,"In the Score column, name the cereals with the highest 3 values in descending order ",Colorful Bran-Fruity Pebbles-Corn Favorite,19 28 15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS1_anime_plain1.png,33,1,anime,plain,1,Estimate Average,Completed,D,,"In the Completed column, calculate a rough estimate of the average value",28.896551724137932,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS2_anime_plain2.png,34,2,anime,plain,2,Estimate Average,Ranked,F,,"In the Ranked column, calculate a rough estimate of the average value",62.37931034482759,F,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS3_anime_plain3.png,35,3,anime,plain,3,Estimate Average,Completed,E,,"In the Completed column, calculate a rough estimate of the average value",37.86206896551724,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS4_anime_plain4.png,36,4,anime,plain,4,Estimate Average,Members,G,,"In the Members column, calculate a rough estimate of the average value",47.6551724137931,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS9_candy_color1.png,9,9,candy,color,1,Estimate Average,Price,G,,"In the Price column, calculate a rough estimate of the average value",37.86206896551724,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS10_candy_color2.png,10,10,candy,color,2,Estimate Average,Pluribus,D,,"In the Pluribus column, calculate a rough estimate of the average value",35.62068965517241,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS11_candy_color3.png,11,11,candy,color,3,Estimate Average,Nougat,F,,"In the Nougat column, calculate a rough estimate of the average value",50.241379310344826,F,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS12_candy_color4.png,12,12,candy,color,4,Estimate Average,Price,G,,"In the Price column, calculate a rough estimate of the average value",37.86206896551724,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS13_movie_zebra1.png,29,13,movie,zebra,1,Estimate Average,MrQE,E,,"In the MrQE column, calculate a rough estimate of the average value",52.310344827586206,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS14_movie_zebra2.png,30,14,movie,zebra,2,Estimate Average,IMDB,G,,"In the IMDB column, calculate a rough estimate of the average value",37.86206896551724,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS15_movie_zebra3.png,31,15,movie,zebra,3,Estimate Average,Netflix,F,,"In the Netflix column, calculate a rough estimate of the average value",50.241379310344826,F,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS16_movie_zebra4.png,32,16,movie,zebra,4,Estimate Average,Roger Ebert,E,,"In the Roger Ebert column, calculate a rough estimate of the average value",52.310344827586206,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS5_cereal_bar1.png,53,5,cereal,bar,1,Estimate Average,Vitamins,F,,"In the Vitamins column, calculate a rough estimate of the average value",56.93103448275862,F,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS6_cereal_bar2.png,54,6,cereal,bar,2,Estimate Average,Calories,E,,"In the Calories column, calculate a rough estimate of the average value",42.10344827586207,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS7_cereal_bar3.png,55,7,cereal,bar,3,Estimate Average,Sugars,D,,"In the Sugars column, calculate a rough estimate of the average value",35.62068965517241,D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,DS8_cereal_bar4.png,56,8,cereal,bar,4,Estimate Average,Calories,E,,"In the Calories column, calculate a rough estimate of the average value",52.310344827586206,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS1_anime_plain1.png,33,1,anime,plain,1,Retrieve Value,Watching,G,15,"In the Watching column, find the anime with a value equal to 15",Helping Alice,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS2_anime_plain2.png,34,2,anime,plain,2,Retrieve Value,On-Hold,H,26,"In the On-Hold column, find the anime with a value equal to 26",Attacking Titan,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS3_anime_plain3.png,35,3,anime,plain,3,Retrieve Value,On-Hold,I,17,"In the On-Hold column, find the anime with a value equal to 17",Ultimate horror,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS4_anime_plain4.png,36,4,anime,plain,4,Retrieve Value,Popularity,J,12,"In the Popularity column, find the anime with a value equal to 12",Helping Alice,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS9_candy_color1.png,9,9,candy,color,1,Retrieve Value,Bar,J,32,"In the Bar column, find the anime with a value equal to 32",Jaw Busters,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS10_candy_color2.png,10,10,candy,color,2,Retrieve Value,Bar,K,68,"In the Bar column, find the anime with a value equal to 68",Haribo Cola,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS11_candy_color3.png,11,11,candy,color,3,Retrieve Value,"Sugar
+Percent",L,26,"In the Sugar
+Percent column, find the anime with a value equal to 26",Hersheys Kisses,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS12_candy_color4.png,12,12,candy,color,4,Retrieve Value,Pluribus,K,15,"In the Pluribus column, find the anime with a value equal to 15",Red Vines,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS13_movie_zebra1.png,29,13,movie,zebra,1,Retrieve Value,"Film
+ Comment",J,67,"In the Film
+ Comment column, find the movie with a value equal to 67",Black Sea,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS14_movie_zebra2.png,30,14,movie,zebra,2,Retrieve Value,PluggedIn,I,79,"In the PluggedIn column, find the movie with a value equal to 79",Hot Pursuit,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS15_movie_zebra3.png,31,15,movie,zebra,3,Retrieve Value,Naver,L,73,"In the Naver column, find the movie with a value equal to 73",South Paw,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS16_movie_zebra4.png,32,16,movie,zebra,4,Retrieve Value,"Film
+ Comment",K,31,"In the Film
+ Comment column, find the movie with a value equal to 31",Fantastic Four,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS5_cereal_bar1.png,53,5,cereal,bar,1,Retrieve Value,Protein,K,51,"In the Protein column, find the cereal with a value equal to 51",Mini Wheats,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS6_cereal_bar2.png,54,6,cereal,bar,2,Retrieve Value,Sodium,H,32,"In the Sodium column, find the cereal with a value equal to 32",Colorful Bran,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS7_cereal_bar3.png,55,7,cereal,bar,3,Retrieve Value,Calories,I,83,"In the Calories column, find the cereal with a value equal to 83",Corn Favorite,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,DS8_cereal_bar4.png,56,8,cereal,bar,4,Retrieve Value,Sugars,K,26,"In the Sugars column, find the cereal with a value equal to 26",Double Chex,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
