@@ -5,8 +5,7 @@ import pygetwindow as gw
 from pygetwindow import getWindowsWithTitle
 
 # Base directory to save screenshots
-base_dir = "C:/Users/danig/OneDrive/Desktop/Tables/Table_PNG"
-file_name = "C:/Users/danig/OneDrive/Desktop/Tables/all_table.pptm"
+base_dir = "C:\\Users\\danig\\Documents\\GitHub\\DataTables\\GeneratingTablesPNG's\\Table_PNG\\task2"
 
 
 # Function to take and save a screenshot of a specific window
