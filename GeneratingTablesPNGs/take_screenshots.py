@@ -5,8 +5,11 @@ import pygetwindow as gw
 from pygetwindow import getWindowsWithTitle
 
 # Base directory to save screenshots
-base_dir = "C:/Users/danig/OneDrive/Desktop/Tables/Table_PNG"
-file_name = "C:/Users/danig/OneDrive/Desktop/Tables/all_table.pptm"
+base_dir = "C:/Users/danig/Documents/GitHub/Research/DataTables/GeneratingTablesPNGs/Table_PNG/task2"
+file_name = "C:/Users/danig/Documents/GitHub/Research/DataTables/GeneratingTablesPNGs/Task2_format.pptm"
+# C:/Users/danig/Documents/GitHub/Research/DataTables/GeneratingTablesPNGs/Task2_format.pptm
+#C:/Users/danig/Documents/GitHub/Research/DataTables/GeneratingTablesPNGs/Table_PNG/task2
+
 
 
 # Function to take and save a screenshot of a specific window
@@ -46,7 +49,7 @@ for i, category in enumerate(categories, start=1):
     for j, style in enumerate(styles, start=1):
         for k in range(1, slides_per_category_style + 1):
             # Constructing filename
-            file_name = f"DS{(dataset_number)}_{category}_{styles[k-1]}{rep_of_cat}.png"
+            file_name = f"T2_DS{(dataset_number)}_{category}_{styles[k-1]}{rep_of_cat}.png"
             
             rep_of_DS += 1
 

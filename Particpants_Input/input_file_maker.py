@@ -23,7 +23,7 @@ def excel_to_csv(file_name):
                 csv_writer.writerow(row)
 
 # Define the name of the Excel file to convert
-excel_file_name = "input_participant_files.xlsx"
+excel_file_name = "Test_all_tables_4_inputs.xlsx"
 
 # Call the function to convert the Excel file to CSV files
 excel_to_csv(excel_file_name)
