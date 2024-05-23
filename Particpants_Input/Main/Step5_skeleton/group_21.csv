@@ -1,0 +1,81 @@
+task id,Table PNG,Table Rendering,Dataset Number,Topic,Condition,Repetition,Task,1Header, 1Column,1Par 1,1Prompt ,1Answer,1Answer Column / Row
+1,DS1_anime_zebra1.png,17,1,anime,zebra,1,Filter,On-Hold,J,80,"In the 'On-Hold' column, count how many cells exceed the value of '80' ",7,J
+1,DS2_anime_zebra2.png,18,2,anime,zebra,2,Filter,Favorites,I,70,"In the 'Favorites' column, count how many cells exceed the value of '70' ",6,I
+1,DS3_anime_zebra3.png,19,3,anime,zebra,3,Filter,On-Hold,G,88,"In the 'On-Hold' column, count how many cells exceed the value of '88' ",5,G
+1,DS4_anime_zebra4.png,20,4,anime,zebra,4,Filter,Score,K,43,"In the 'Score' column, count how many cells exceed the value of '43' ",8,K
+1,DS5_cereal_color1.png,5,5,cereal,color,1,Filter,Sodium,I,57,"In the 'Sodium' column, count how many cells exceed the value of '57' ",8,I
+1,DS6_cereal_color2.png,6,6,cereal,color,2,Filter,Carbo,H,70,"In the 'Carbo' column, count how many cells exceed the value of '70' ",5,H
+1,DS7_cereal_color3.png,7,7,cereal,color,3,Filter,Protein,J,45,"In the 'Protein' column, count how many cells exceed the value of '45' ",6,J
+1,DS8_cereal_color4.png,8,8,cereal,color,4,Filter,Fat,K,60,"In the 'Fat' column, count how many cells exceed the value of '60' ",7,K
+1,DS9_candy_bar1.png,57,9,candy,bar,1,Filter,Rating,K,66,"In the 'Rating' column, count how many cells exceed the value of '66' ",5,K
+1,DS10_candy_bar2.png,58,10,candy,bar,2,Filter,Caramel,J,38,"In the 'Caramel' column, count how many cells exceed the value of '38' ",8,J
+1,DS11_candy_bar3.png,59,11,candy,bar,3,Filter,SugarPercent,G,50,"In the 'SugarPercent' column, count how many cells exceed the value of '50' ",7,G
+1,DS12_candy_bar4.png,60,12,candy,bar,4,Filter,Bar,I,57,"In the 'Bar' column, count how many cells exceed the value of '57' ",6,I
+1,DS13_movie_plain1.png,45,13,movie,plain,1,Filter,Hulu,H,70,"In the 'Hulu' column, count how many cells exceed the value of '70' ",5,H
+1,DS14_movie_plain2.png,46,14,movie,plain,2,Filter,MrQE,I,76,"In the 'MrQE' column, count how many cells exceed the value of '76' ",8,I
+1,DS15_movie_plain3.png,47,15,movie,plain,3,Filter,Netflix,J,54,"In the 'Netflix' column, count how many cells exceed the value of '54' ",7,J
+1,DS16_movie_plain4.png,48,16,movie,plain,4,Filter,Hulu,G,57,"In the 'Hulu' column, count how many cells exceed the value of '57' ",6,G
+2,DS1_anime_zebra1.png,17,1,anime,zebra,1,Correlation,On-Hold,J,80,"In the 'On-Hold' column, count how many cells exceed the value of '80' ",7,J
+2,DS2_anime_zebra2.png,18,2,anime,zebra,2,Correlation,Favorites,I,70,"In the 'Favorites' column, count how many cells exceed the value of '70' ",6,I
+2,DS3_anime_zebra3.png,19,3,anime,zebra,3,Correlation,On-Hold,G,88,"In the 'On-Hold' column, count how many cells exceed the value of '88' ",5,G
+2,DS4_anime_zebra4.png,20,4,anime,zebra,4,Correlation,Score,K,43,"In the 'Score' column, count how many cells exceed the value of '43' ",8,K
+2,DS5_cereal_color1.png,5,5,cereal,color,1,Correlation,Sodium,I,57,"In the 'Sodium' column, count how many cells exceed the value of '57' ",8,I
+2,DS6_cereal_color2.png,6,6,cereal,color,2,Correlation,Carbo,H,70,"In the 'Carbo' column, count how many cells exceed the value of '70' ",5,H
+2,DS7_cereal_color3.png,7,7,cereal,color,3,Correlation,Protein,J,45,"In the 'Protein' column, count how many cells exceed the value of '45' ",6,J
+2,DS8_cereal_color4.png,8,8,cereal,color,4,Correlation,Fat,K,60,"In the 'Fat' column, count how many cells exceed the value of '60' ",7,K
+2,DS9_candy_bar1.png,57,9,candy,bar,1,Correlation,Rating,K,66,"In the 'Rating' column, count how many cells exceed the value of '66' ",5,K
+2,DS10_candy_bar2.png,58,10,candy,bar,2,Correlation,Caramel,J,38,"In the 'Caramel' column, count how many cells exceed the value of '38' ",8,J
+2,DS11_candy_bar3.png,59,11,candy,bar,3,Correlation,SugarPercent,G,50,"In the 'SugarPercent' column, count how many cells exceed the value of '50' ",7,G
+2,DS12_candy_bar4.png,60,12,candy,bar,4,Correlation,Bar,I,57,"In the 'Bar' column, count how many cells exceed the value of '57' ",6,I
+2,DS13_movie_plain1.png,45,13,movie,plain,1,Correlation,Hulu,H,70,"In the 'Hulu' column, count how many cells exceed the value of '70' ",5,H
+2,DS14_movie_plain2.png,46,14,movie,plain,2,Correlation,MrQE,I,76,"In the 'MrQE' column, count how many cells exceed the value of '76' ",8,I
+2,DS15_movie_plain3.png,47,15,movie,plain,3,Correlation,Netflix,J,54,"In the 'Netflix' column, count how many cells exceed the value of '54' ",7,J
+2,DS16_movie_plain4.png,48,16,movie,plain,4,Correlation,Hulu,G,57,"In the 'Hulu' column, count how many cells exceed the value of '57' ",6,G
+3,DS1_anime_zebra1.png,17,1,anime,zebra,1,Sort,On-Hold,J,80,"In the 'On-Hold' column, count how many cells exceed the value of '80' ",7,J
+3,DS2_anime_zebra2.png,18,2,anime,zebra,2,Sort,Favorites,I,70,"In the 'Favorites' column, count how many cells exceed the value of '70' ",6,I
+3,DS3_anime_zebra3.png,19,3,anime,zebra,3,Sort,On-Hold,G,88,"In the 'On-Hold' column, count how many cells exceed the value of '88' ",5,G
+3,DS4_anime_zebra4.png,20,4,anime,zebra,4,Sort,Score,K,43,"In the 'Score' column, count how many cells exceed the value of '43' ",8,K
+3,DS5_cereal_color1.png,5,5,cereal,color,1,Sort,Sodium,I,57,"In the 'Sodium' column, count how many cells exceed the value of '57' ",8,I
+3,DS6_cereal_color2.png,6,6,cereal,color,2,Sort,Carbo,H,70,"In the 'Carbo' column, count how many cells exceed the value of '70' ",5,H
+3,DS7_cereal_color3.png,7,7,cereal,color,3,Sort,Protein,J,45,"In the 'Protein' column, count how many cells exceed the value of '45' ",6,J
+3,DS8_cereal_color4.png,8,8,cereal,color,4,Sort,Fat,K,60,"In the 'Fat' column, count how many cells exceed the value of '60' ",7,K
+3,DS9_candy_bar1.png,57,9,candy,bar,1,Sort,Rating,K,66,"In the 'Rating' column, count how many cells exceed the value of '66' ",5,K
+3,DS10_candy_bar2.png,58,10,candy,bar,2,Sort,Caramel,J,38,"In the 'Caramel' column, count how many cells exceed the value of '38' ",8,J
+3,DS11_candy_bar3.png,59,11,candy,bar,3,Sort,SugarPercent,G,50,"In the 'SugarPercent' column, count how many cells exceed the value of '50' ",7,G
+3,DS12_candy_bar4.png,60,12,candy,bar,4,Sort,Bar,I,57,"In the 'Bar' column, count how many cells exceed the value of '57' ",6,I
+3,DS13_movie_plain1.png,45,13,movie,plain,1,Sort,Hulu,H,70,"In the 'Hulu' column, count how many cells exceed the value of '70' ",5,H
+3,DS14_movie_plain2.png,46,14,movie,plain,2,Sort,MrQE,I,76,"In the 'MrQE' column, count how many cells exceed the value of '76' ",8,I
+3,DS15_movie_plain3.png,47,15,movie,plain,3,Sort,Netflix,J,54,"In the 'Netflix' column, count how many cells exceed the value of '54' ",7,J
+3,DS16_movie_plain4.png,48,16,movie,plain,4,Sort,Hulu,G,57,"In the 'Hulu' column, count how many cells exceed the value of '57' ",6,G
+4,DS1_anime_zebra1.png,17,1,anime,zebra,1,Estimate Average,On-Hold,J,80,"In the 'On-Hold' column, count how many cells exceed the value of '80' ",7,J
+4,DS2_anime_zebra2.png,18,2,anime,zebra,2,Estimate Average,Favorites,I,70,"In the 'Favorites' column, count how many cells exceed the value of '70' ",6,I
+4,DS3_anime_zebra3.png,19,3,anime,zebra,3,Estimate Average,On-Hold,G,88,"In the 'On-Hold' column, count how many cells exceed the value of '88' ",5,G
+4,DS4_anime_zebra4.png,20,4,anime,zebra,4,Estimate Average,Score,K,43,"In the 'Score' column, count how many cells exceed the value of '43' ",8,K
+4,DS5_cereal_color1.png,5,5,cereal,color,1,Estimate Average,Sodium,I,57,"In the 'Sodium' column, count how many cells exceed the value of '57' ",8,I
+4,DS6_cereal_color2.png,6,6,cereal,color,2,Estimate Average,Carbo,H,70,"In the 'Carbo' column, count how many cells exceed the value of '70' ",5,H
+4,DS7_cereal_color3.png,7,7,cereal,color,3,Estimate Average,Protein,J,45,"In the 'Protein' column, count how many cells exceed the value of '45' ",6,J
+4,DS8_cereal_color4.png,8,8,cereal,color,4,Estimate Average,Fat,K,60,"In the 'Fat' column, count how many cells exceed the value of '60' ",7,K
+4,DS9_candy_bar1.png,57,9,candy,bar,1,Estimate Average,Rating,K,66,"In the 'Rating' column, count how many cells exceed the value of '66' ",5,K
+4,DS10_candy_bar2.png,58,10,candy,bar,2,Estimate Average,Caramel,J,38,"In the 'Caramel' column, count how many cells exceed the value of '38' ",8,J
+4,DS11_candy_bar3.png,59,11,candy,bar,3,Estimate Average,SugarPercent,G,50,"In the 'SugarPercent' column, count how many cells exceed the value of '50' ",7,G
+4,DS12_candy_bar4.png,60,12,candy,bar,4,Estimate Average,Bar,I,57,"In the 'Bar' column, count how many cells exceed the value of '57' ",6,I
+4,DS13_movie_plain1.png,45,13,movie,plain,1,Estimate Average,Hulu,H,70,"In the 'Hulu' column, count how many cells exceed the value of '70' ",5,H
+4,DS14_movie_plain2.png,46,14,movie,plain,2,Estimate Average,MrQE,I,76,"In the 'MrQE' column, count how many cells exceed the value of '76' ",8,I
+4,DS15_movie_plain3.png,47,15,movie,plain,3,Estimate Average,Netflix,J,54,"In the 'Netflix' column, count how many cells exceed the value of '54' ",7,J
+4,DS16_movie_plain4.png,48,16,movie,plain,4,Estimate Average,Hulu,G,57,"In the 'Hulu' column, count how many cells exceed the value of '57' ",6,G
+5,DS1_anime_zebra1.png,17,1,anime,zebra,1,Retrieve Value,On-Hold,J,80,"In the 'On-Hold' column, count how many cells exceed the value of '80' ",7,J
+5,DS2_anime_zebra2.png,18,2,anime,zebra,2,Retrieve Value,Favorites,I,70,"In the 'Favorites' column, count how many cells exceed the value of '70' ",6,I
+5,DS3_anime_zebra3.png,19,3,anime,zebra,3,Retrieve Value,On-Hold,G,88,"In the 'On-Hold' column, count how many cells exceed the value of '88' ",5,G
+5,DS4_anime_zebra4.png,20,4,anime,zebra,4,Retrieve Value,Score,K,43,"In the 'Score' column, count how many cells exceed the value of '43' ",8,K
+5,DS5_cereal_color1.png,5,5,cereal,color,1,Retrieve Value,Sodium,I,57,"In the 'Sodium' column, count how many cells exceed the value of '57' ",8,I
+5,DS6_cereal_color2.png,6,6,cereal,color,2,Retrieve Value,Carbo,H,70,"In the 'Carbo' column, count how many cells exceed the value of '70' ",5,H
+5,DS7_cereal_color3.png,7,7,cereal,color,3,Retrieve Value,Protein,J,45,"In the 'Protein' column, count how many cells exceed the value of '45' ",6,J
+5,DS8_cereal_color4.png,8,8,cereal,color,4,Retrieve Value,Fat,K,60,"In the 'Fat' column, count how many cells exceed the value of '60' ",7,K
+5,DS9_candy_bar1.png,57,9,candy,bar,1,Retrieve Value,Rating,K,66,"In the 'Rating' column, count how many cells exceed the value of '66' ",5,K
+5,DS10_candy_bar2.png,58,10,candy,bar,2,Retrieve Value,Caramel,J,38,"In the 'Caramel' column, count how many cells exceed the value of '38' ",8,J
+5,DS11_candy_bar3.png,59,11,candy,bar,3,Retrieve Value,SugarPercent,G,50,"In the 'SugarPercent' column, count how many cells exceed the value of '50' ",7,G
+5,DS12_candy_bar4.png,60,12,candy,bar,4,Retrieve Value,Bar,I,57,"In the 'Bar' column, count how many cells exceed the value of '57' ",6,I
+5,DS13_movie_plain1.png,45,13,movie,plain,1,Retrieve Value,Hulu,H,70,"In the 'Hulu' column, count how many cells exceed the value of '70' ",5,H
+5,DS14_movie_plain2.png,46,14,movie,plain,2,Retrieve Value,MrQE,I,76,"In the 'MrQE' column, count how many cells exceed the value of '76' ",8,I
+5,DS15_movie_plain3.png,47,15,movie,plain,3,Retrieve Value,Netflix,J,54,"In the 'Netflix' column, count how many cells exceed the value of '54' ",7,J
+5,DS16_movie_plain4.png,48,16,movie,plain,4,Retrieve Value,Hulu,G,57,"In the 'Hulu' column, count how many cells exceed the value of '57' ",6,G
