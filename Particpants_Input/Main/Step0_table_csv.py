@@ -17,4 +17,4 @@ def excel_to_csv(workbook_path):
         print(f"Saved {csv_file_path}")
 
 # Usage example:
-excel_to_csv('C:/Users/danig/Documents/GitHub/Research/DataTables/tests/All_128_tables.xlsx')
+excel_to_csv('C:/Users/danig/Documents/GitHub/Research/DataTables/tests/Main/main.xlsx')
