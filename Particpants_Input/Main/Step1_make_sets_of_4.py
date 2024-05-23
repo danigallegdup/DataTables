@@ -23,7 +23,7 @@ for (topic, condition), group in grouped:
     for i in range(0, len(group), 4):
         subset = group.iloc[i:i+4]
         if not subset.empty:
-            file_name = f'{topic}_{condition}_{file_index}.csv'
+            file_name = f'{topic}_{condition}.csv'
             file_path = os.path.join(output_dir, file_name)
             subset.to_csv(file_path, index=False)
             file_index += 1
