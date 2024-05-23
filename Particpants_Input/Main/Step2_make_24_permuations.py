@@ -3,8 +3,8 @@ import os
 import itertools
 
 # Define the directory containing the split files
-input_dir = 'C:/Users/danig/Documents/GitHub/Research/DataTables/tests/Main/Step1_sets_of_4'
-output_dir = 'C:/Users/danig/Documents/GitHub/Research/DataTables/tests/Main/Step2_groups_of_24'
+input_dir = 'C:/Users/danig/Documents/GitHub/Research/DataTables/Particpants_Input/Main/Step1_sets_of_4'
+output_dir = 'C:/Users/danig/Documents/GitHub/Research/DataTables/Particpants_Input/Main/Step2_groups_of_24'
 os.makedirs(output_dir, exist_ok=True)
 
 # List all the files in the directory
