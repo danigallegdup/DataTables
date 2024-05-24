@@ -28,9 +28,6 @@ def extract_and_append_subset(input_file_path, output_file_path, start_column, e
     else:
         subset_df.to_csv(output_file_path, mode='a', header=False, index=False)  # No headers when appending
     
-    # Add a blank line
-    with open(output_file_path, 'a') as f:
-        f.write('\n')
 
 # Define directories
 input_directory = "C:/Users/danig/Documents/GitHub/Research/DataTables/Particpants_Input/Main/Step2_groups_of_24/"
@@ -41,6 +38,7 @@ os.makedirs(output_directory, exist_ok=True)
 
 # Define the column ranges for subsets
 subsets = [
+    ("1Header", "1Answer Column / Row"),
     ("2Header", " 2Answer Column / Row"),
     ("3Header", " 3Answer Column / Row"),
     (" 4Header", "4Answer Column / Row"),

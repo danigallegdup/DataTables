@@ -1,0 +1,65 @@
+task id,Table PNG,Table Rendering,Dataset Number,Topic,Condition,Repetition,Task,1Header, 1Column,1Par 1,1Prompt ,1Answer,1Answer Column / Row,2Header,2Column,2Par 1,2Prompt , 2Answer, 2Answer Column / Row
+1.0,DS1_anime_bar1.png,49.0,1.0,anime,bar,1.0,Filter,Completed,J,80.0,"In the 'Completed' column, count how many cells exceed the value of '80' ",7.0,J,Episodes,C,0.9584557641748676,Determine which of the last 5 columns is most positively correalated with the first column named 'Episodes' ,Completed,I
+1.0,DS2_anime_bar2.png,50.0,2.0,anime,bar,2.0,Filter,Members,I,70.0,"In the 'Members' column, count how many cells exceed the value of '70' ",6.0,I,Plan to Watch,C,0.9790768125482828,Determine which of the last 5 columns is most positively correalated with the first column named 'Plan to Watch' ,Favorites,L
+1.0,DS3_anime_bar3.png,51.0,3.0,anime,bar,3.0,Filter,Ranked,G,88.0,"In the 'Ranked' column, count how many cells exceed the value of '88' ",5.0,G,Completed,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'Completed' ,Episodes,K
+1.0,DS4_anime_bar4.png,52.0,4.0,anime,bar,4.0,Filter,Score,K,43.0,"In the 'Score' column, count how many cells exceed the value of '43' ",8.0,K,Score,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Score' ,Dropped,J
+1.0,DS5_cereal_zebra1.png,21.0,5.0,cereal,zebra,1.0,Filter,Sodium,I,57.0,"In the 'Sodium' column, count how many cells exceed the value of '57' ",8.0,I,Potassium,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'Potassium' ,Sugars,K
+1.0,DS6_cereal_zebra2.png,22.0,6.0,cereal,zebra,2.0,Filter,Score,H,70.0,"In the 'Score' column, count how many cells exceed the value of '70' ",5.0,H,Calories,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'Calories' ,Protein,I
+1.0,DS7_cereal_zebra3.png,23.0,7.0,cereal,zebra,3.0,Filter,Carbo,J,45.0,"In the 'Carbo' column, count how many cells exceed the value of '45' ",6.0,J,Iron,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Iron' ,Carbo,J
+1.0,DS8_cereal_zebra4.png,24.0,8.0,cereal,zebra,4.0,Filter,Sodium,K,60.0,"In the 'Sodium' column, count how many cells exceed the value of '60' ",7.0,K,Vitamins,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Vitamins' ,Potassium,L
+1.0,DS9_candy_color1.png,9.0,9.0,candy,color,1.0,Filter,Hard,K,66.0,"In the 'Hard' column, count how many cells exceed the value of '66' ",5.0,K,Hard,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Hard' ,Chocolate,L
+1.0,DS10_candy_color2.png,10.0,10.0,candy,color,2.0,Filter,SugarPercent,J,38.0,"In the 'SugarPercent' column, count how many cells exceed the value of '38' ",8.0,J,SugarPercent,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'SugarPercent' ,Rating,J
+1.0,DS11_candy_color3.png,11.0,11.0,candy,color,3.0,Filter,Caramel,G,50.0,"In the 'Caramel' column, count how many cells exceed the value of '50' ",7.0,G,Rating,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Rating' ,Chocolate,K
+1.0,DS12_candy_color4.png,12.0,12.0,candy,color,4.0,Filter,SugarPercent,I,57.0,"In the 'SugarPercent' column, count how many cells exceed the value of '57' ",6.0,I,Hard,C,0.992274757693407,Determine which of the last 5 columns is most positively correalated with the first column named 'Hard' ,Nougat,I
+1.0,DS13_movie_plain1.png,45.0,13.0,movie,plain,1.0,Filter,Hulu,H,70.0,"In the 'Hulu' column, count how many cells exceed the value of '70' ",5.0,H,Naver,C,0.9922747576934072,Determine which of the last 5 columns is most positively correalated with the first column named 'Naver' ,Roger Ebert,I
+1.0,DS14_movie_plain2.png,46.0,14.0,movie,plain,2.0,Filter,MrQE,I,76.0,"In the 'MrQE' column, count how many cells exceed the value of '76' ",8.0,I,MrQE,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'MrQE' ,Netflix,L
+1.0,DS15_movie_plain3.png,47.0,15.0,movie,plain,3.0,Filter,Netflix,J,54.0,"In the 'Netflix' column, count how many cells exceed the value of '54' ",7.0,J,RottenTomatoes,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'RottenTomatoes' ,Netflix,K
+1.0,DS16_movie_plain4.png,48.0,16.0,movie,plain,4.0,Filter,Hulu,G,57.0,"In the 'Hulu' column, count how many cells exceed the value of '57' ",6.0,G,IMDB,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'IMDB' ,Fandango,J
+2.0,DS1_anime_bar1.png,49.0,1.0,anime,bar,1.0,Correlation,Completed,J,80.0,"In the 'Completed' column, count how many cells exceed the value of '80' ",7.0,J,Episodes,L,60 56 53,"In the 'Episodes' column, give the row names of the animes with the highest 3 values in descending order ",Dragon Ball-Magical Warfare-Queen Kingdom,13 18 27
+,,,,,,,,,,,,,,Members,I,88 86 83,"In the 'Members' column, give the row names of the animes with the highest 3 values in descending order ",Connect Angel-Beating Music-Hungry Heart,5 18 6
+,,,,,,,,,,,,,,Favorites,J,75 73 71,"In the 'Favorites' column, give the row names of the animes with the highest 3 values in descending order ",King Ranking-Ultimate horror-Queen Kingdom,5 10 11
+,,,,,,,,,,,,,,Score,K,74 73 70,"In the 'Score' column, give the row names of the animes with the highest 3 values in descending order ",Ultra Generation-Mobile Phone-Ultimate horror,6 24 22
+,,,,,,,,,,,,,,Vitamins,H,88 86 83,"In the 'Vitamins' column, give the row names of the cereals with the highest 3 values in descending order ",Cap Crunch-Corn Favorite-Raisin Bran,5 19 20
+,,,,,,,,,,,,,,Protein,I,71 70 68,"In the 'Protein' column, give the row names of the cereals with the highest 3 values in descending order ",Smile Maker-Natural Bran-Fruity Pebbles,22 3 7
+,,,,,,,,,,,,,,Carbo,J,60 56 53,"In the 'Carbo' column, give the row names of the cereals with the highest 3 values in descending order ",Cinnamon Toast-Cap Crunch-Mini Wheats,7 23 18
+,,,,,,,,,,,,,,Sodium,K,75 73 71,"In the 'Sodium' column, give the row names of the cereals with the highest 3 values in descending order ",Wonderful Chex-Bran Chex-Raisin Bran,16 10 19
+,,,,,,,,,,,,,,Caramel,I,98 97 95,"In the 'Caramel' column, give the row names of the candys with the highest 3 values in descending order ",Hersheys Kisses-Pixie Sticks-Crunch Time,27 31 20
+,,,,,,,,,,,,,,Bar,K,75 73 71,"In the 'Bar' column, give the row names of the candys with the highest 3 values in descending order ",Quarter World-Caramel Apple-Life Savers,31 8 26
+,,,,,,,,,,,,,,Bar,H,98 84 80,"In the 'Bar' column, give the row names of the candys with the highest 3 values in descending order ",Gob Stopper-One Dime-Red Vines,22 30 14
+,,,,,,,,,,,,,,Fruity,L,60 56 53,"In the 'Fruity' column, give the row names of the candys with the highest 3 values in descending order ",Laffy Taffy-Good Bar-Milk Duds,9 28 12
+,,,,,,,,,,,,,,PluggedIn,I,71 70 68,"In the 'PluggedIn' column, give the row names of the movies with the highest 3 values in descending order ",About Elly-Black White-Divergent Series,21 16 17
+,,,,,,,,,,,,,,Metacritic,K,75 73 71,"In the 'Metacritic' column, give the row names of the movies with the highest 3 values in descending order ",Irrational Man -Teenage Girl -Mapping Stars,5 21 20
+,,,,,,,,,,,,,,Fandango,H,98 84 80,"In the 'Fandango' column, give the row names of the movies with the highest 3 values in descending order ",Teenage Girl -Irrational Man -Next Door,10 9 20
+,,,,,,,,,,,,,,Netflix,J,71 70 68,"In the 'Netflix' column, give the row names of the movies with the highest 3 values in descending order ",Welcome Home-About Elly-Irrational Man ,18 6 10
+,,,,,,,,,,,,,,Plan to Watch,D,,"In the 'Plan to Watch' column, calculate a rough estimate of the average value",28.89655172413793,D
+,,,,,,,,,,,,,,Popularity,F,,"In the 'Popularity' column, calculate a rough estimate of the average value",62.37931034482759,F
+,,,,,,,,,,,,,,Watching,E,,"In the 'Watching' column, calculate a rough estimate of the average value",37.86206896551724,E
+,,,,,,,,,,,,,,Members,G,,"In the 'Members' column, calculate a rough estimate of the average value",47.6551724137931,G
+,,,,,,,,,,,,,,Fiber,F,,"In the 'Fiber' column, calculate a rough estimate of the average value",56.93103448275862,F
+,,,,,,,,,,,,,,Fiber,G,,"In the 'Fiber' column, calculate a rough estimate of the average value",52.310344827586206,G
+,,,,,,,,,,,,,,Sugars,D,,"In the 'Sugars' column, calculate a rough estimate of the average value",35.62068965517241,D
+,,,,,,,,,,,,,,Score,E,,"In the 'Score' column, calculate a rough estimate of the average value",52.310344827586206,E
+,,,,,,,,,,,,,,Price,G,,"In the 'Price' column, calculate a rough estimate of the average value",37.86206896551724,G
+,,,,,,,,,,,,,,Pluribus,D,,"In the 'Pluribus' column, calculate a rough estimate of the average value",35.62068965517241,D
+,,,,,,,,,,,,,,Nougat,F,,"In the 'Nougat' column, calculate a rough estimate of the average value",50.241379310344826,F
+,,,,,,,,,,,,,,Price,G,,"In the 'Price' column, calculate a rough estimate of the average value",37.86206896551724,G
+,,,,,,,,,,,,,,Fandango,E,,"In the 'Fandango' column, calculate a rough estimate of the average value",52.310344827586206,E
+,,,,,,,,,,,,,,Roger Ebert,G,,"In the 'Roger Ebert' column, calculate a rough estimate of the average value",37.86206896551724,G
+,,,,,,,,,,,,,,RottenTomatoes,F,,"In the 'RottenTomatoes' column, calculate a rough estimate of the average value",50.241379310344826,F
+,,,,,,,,,,,,,,IMDB,E,,"In the 'IMDB' column, calculate a rough estimate of the average value",52.310344827586206,E
+,,,,,,,,,,,,,,Ranked,G,15,"In the 'Ranked' column, find the  with a value equal to '15' ",Best Humanity,16
+,,,,,,,,,,,,,,Watching,H,26,"In the 'Watching' column, find the  with a value equal to '26' ",Queen Kingdom,20
+,,,,,,,,,,,,,,Plan to Watch,I,17,"In the 'Plan to Watch' column, find the  with a value equal to '17' ",Great Teacher,16
+,,,,,,,,,,,,,,Popularity,J,12,"In the 'Popularity' column, find the  with a value equal to '12' ",Helping Alice,18
+,,,,,,,,,,,,,,Sugars,K,51,"In the 'Sugars' column, find the  with a value equal to '51' ",Wonderful Chex,17
+,,,,,,,,,,,,,,Score,H,32,"In the 'Score' column, find the  with a value equal to '32' ",Wheat Cream,19
+,,,,,,,,,,,,,,Protein,I,83,"In the 'Protein' column, find the  with a value equal to '83' ",Lucky Charms,17
+,,,,,,,,,,,,,,Sodium,K,26,"In the 'Sodium' column, find the  with a value equal to '26' ",Wheat Cream,20
+,,,,,,,,,,,,,,Bar,J,32,"In the 'Bar' column, find the  with a value equal to '32' ",Jaw Busters,19
+,,,,,,,,,,,,,,Bar,K,68,"In the 'Bar' column, find the  with a value equal to '68' ",Haribo Cola,17
+,,,,,,,,,,,,,,SugarPercent,L,26,"In the 'SugarPercent' column, find the  with a value equal to '26' ",Hersheys Kisses,11
+,,,,,,,,,,,,,,Pluribus,K,15,"In the 'Pluribus' column, find the  with a value equal to '15' ",Red Vines,15
+,,,,,,,,,,,,,,RottenTomatoes,J,67,"In the 'RottenTomatoes' column, find the  with a value equal to '67' ",Welcome Home,20
+,,,,,,,,,,,,,,MrQE,I,79,"In the 'MrQE' column, find the  with a value equal to '79' ",Tomorrow land,18
+,,,,,,,,,,,,,,Film Comment,L,73,"In the 'Film Comment' column, find the  with a value equal to '73' ",Adaline Age,19
+,,,,,,,,,,,,,,PluggedIn,K,31,"In the 'PluggedIn' column, find the  with a value equal to '31' ",Still Alice,17

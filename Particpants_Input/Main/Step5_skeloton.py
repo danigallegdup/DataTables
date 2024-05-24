@@ -28,7 +28,7 @@ for file in files:
             
             if not df.empty:
                 # Select the first 8 columns
-                df = df.iloc[:, :14]
+                df = df.iloc[:, :8]
                 
                 # Save the modified file
                 output_file_path = os.path.join(output_dir, file)
