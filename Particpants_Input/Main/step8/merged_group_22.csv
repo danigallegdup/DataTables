@@ -1,81 +1,161 @@
 task id,Table PNG,Table Rendering,Dataset Number,Topic,Condition,Repetition,Task,1Header,1Column,1Par 1,1Prompt,1Answer,1Answer Column / Row
-1,DS1_anime_zebra1.png,17,1,anime,zebra,1,Filter,On-Hold,J,80,"In the 'On-Hold' column, count how many cells exceed the value of '80' ",7,J
-1,DS2_anime_zebra2.png,18,2,anime,zebra,2,Filter,Favorites,I,70,"In the 'Favorites' column, count how many cells exceed the value of '70' ",6,I
-1,DS3_anime_zebra3.png,19,3,anime,zebra,3,Filter,On-Hold,G,88,"In the 'On-Hold' column, count how many cells exceed the value of '88' ",5,G
-1,DS4_anime_zebra4.png,20,4,anime,zebra,4,Filter,Score,K,43,"In the 'Score' column, count how many cells exceed the value of '43' ",8,K
-1,DS5_cereal_color1.png,5,5,cereal,color,1,Filter,Sodium,I,57,"In the 'Sodium' column, count how many cells exceed the value of '57' ",8,I
-1,DS6_cereal_color2.png,6,6,cereal,color,2,Filter,Carbo,H,70,"In the 'Carbo' column, count how many cells exceed the value of '70' ",5,H
-1,DS7_cereal_color3.png,7,7,cereal,color,3,Filter,Protein,J,45,"In the 'Protein' column, count how many cells exceed the value of '45' ",6,J
-1,DS8_cereal_color4.png,8,8,cereal,color,4,Filter,Fat,K,60,"In the 'Fat' column, count how many cells exceed the value of '60' ",7,K
-1,DS9_candy_plain1.png,41,9,candy,plain,1,Filter,Fruity,K,66,"In the 'Fruity' column, count how many cells exceed the value of '66' ",5,K
-1,DS10_candy_plain2.png,42,10,candy,plain,2,Filter,Rating,J,38,"In the 'Rating' column, count how many cells exceed the value of '38' ",8,J
-1,DS11_candy_plain3.png,43,11,candy,plain,3,Filter,Pluribus,G,50,"In the 'Pluribus' column, count how many cells exceed the value of '50' ",7,G
-1,DS12_candy_plain4.png,44,12,candy,plain,4,Filter,Nougat,I,57,"In the 'Nougat' column, count how many cells exceed the value of '57' ",6,I
-1,DS13_movie_bar1.png,61,13,movie,bar,1,Filter,Fandango,H,70,"In the 'Fandango' column, count how many cells exceed the value of '70' ",5,H
-1,DS14_movie_bar2.png,62,14,movie,bar,2,Filter,Hulu,I,76,"In the 'Hulu' column, count how many cells exceed the value of '76' ",8,I
-1,DS15_movie_bar3.png,63,15,movie,bar,3,Filter,PluggedIn,J,54,"In the 'PluggedIn' column, count how many cells exceed the value of '54' ",7,J
-1,DS16_movie_bar4.png,64,16,movie,bar,4,Filter,Netflix,G,57,"In the 'Netflix' column, count how many cells exceed the value of '57' ",6,G
-2,DS1_anime_zebra1.png,17,1,anime,zebra,1,Correlation,Episodes,C,0.9584557641748676,Determine which of the last 5 columns is most positively correalated with the first column named 'Episodes' ,Completed,I
-2,DS2_anime_zebra2.png,18,2,anime,zebra,2,Correlation,Plan to Watch,C,0.9790768125482828,Determine which of the last 5 columns is most positively correalated with the first column named 'Plan to Watch' ,Favorites,L
-2,DS3_anime_zebra3.png,19,3,anime,zebra,3,Correlation,Completed,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'Completed' ,Episodes,K
-2,DS4_anime_zebra4.png,20,4,anime,zebra,4,Correlation,Score,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Score' ,Dropped,J
-2,DS5_cereal_color1.png,5,5,cereal,color,1,Correlation,Potassium,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'Potassium' ,Sugars,K
-2,DS6_cereal_color2.png,6,6,cereal,color,2,Correlation,Calories,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'Calories' ,Protein,I
-2,DS7_cereal_color3.png,7,7,cereal,color,3,Correlation,Iron,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Iron' ,Carbo,J
-2,DS8_cereal_color4.png,8,8,cereal,color,4,Correlation,Vitamins,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Vitamins' ,Potassium,L
-2,DS9_candy_plain1.png,41,9,candy,plain,1,Correlation,Hard,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Hard' ,Chocolate,L
-2,DS10_candy_plain2.png,42,10,candy,plain,2,Correlation,SugarPercent,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'SugarPercent' ,Rating,J
-2,DS11_candy_plain3.png,43,11,candy,plain,3,Correlation,Rating,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Rating' ,Chocolate,K
-2,DS12_candy_plain4.png,44,12,candy,plain,4,Correlation,Hard,C,0.992274757693407,Determine which of the last 5 columns is most positively correalated with the first column named 'Hard' ,Nougat,I
-2,DS13_movie_bar1.png,61,13,movie,bar,1,Correlation,Naver,C,0.9922747576934072,Determine which of the last 5 columns is most positively correalated with the first column named 'Naver' ,Roger Ebert,I
-2,DS14_movie_bar2.png,62,14,movie,bar,2,Correlation,MrQE,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'MrQE' ,Netflix,L
-2,DS15_movie_bar3.png,63,15,movie,bar,3,Correlation,RottenTomatoes,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'RottenTomatoes' ,Netflix,K
-2,DS16_movie_bar4.png,64,16,movie,bar,4,Correlation,IMDB,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'IMDB' ,Fandango,J
-3,DS1_anime_zebra1.png,17,1,anime,zebra,1,Sort,Completed,L,60 56 53,"In the 'Completed' column, give the row names of the animes with the highest 3 values in descending order ",Hungry Heart-Fighting Animal-Trinity Blood,13 18 27
-3,DS2_anime_zebra2.png,18,2,anime,zebra,2,Sort,Favorites,I,88 86 83,"In the 'Favorites' column, give the row names of the animes with the highest 3 values in descending order ",Cursing Notebook-Fourth Stage-Hungry Heart,5 18 6
-3,DS3_anime_zebra3.png,19,3,anime,zebra,3,Sort,Episodes,J,75 73 71,"In the 'Episodes' column, give the row names of the animes with the highest 3 values in descending order ",Fighting Animal-Legendary Forks-First Stage,5 10 11
-3,DS4_anime_zebra4.png,20,4,anime,zebra,4,Sort,Score,K,74 73 70,"In the 'Score' column, give the row names of the animes with the highest 3 values in descending order ",Helping Alice-Neon Genesis-Queen Kingdom,6 24 22
-3,DS5_cereal_color1.png,5,5,cereal,color,1,Sort,Calories,H,88 86 83,"In the 'Calories' column, give the row names of the cereals with the highest 3 values in descending order ",Natural Bran-Almond Raisin-Fruity Pebbles,5 19 20
-3,DS6_cereal_color2.png,6,6,cereal,color,2,Sort,Potassium,I,71 70 68,"In the 'Potassium' column, give the row names of the cereals with the highest 3 values in descending order ",Colorful Bran-Apple Jacks-Wheat Cream,22 3 7
-3,DS7_cereal_color3.png,7,7,cereal,color,3,Sort,Protein,J,60 56 53,"In the 'Protein' column, give the row names of the cereals with the highest 3 values in descending order ",Natural Bran-Golden Crisp-Wonderful Chex,7 23 18
-3,DS8_cereal_color4.png,8,8,cereal,color,4,Sort,Fat,K,75 73 71,"In the 'Fat' column, give the row names of the cereals with the highest 3 values in descending order ",Grape Flakes-Count Chocula-Golden Crisp,16 10 19
-3,DS9_candy_plain1.png,41,9,candy,plain,1,Sort,SugarPercent,H,98 84 80,"In the 'SugarPercent' column, give the row names of the candys with the highest 3 values in descending order ",Gold Bears-Milk Duds-Berry Chews,30 9 11
-3,DS10_candy_plain2.png,42,10,candy,plain,2,Sort,Chocolate,K,75 73 71,"In the 'Chocolate' column, give the row names of the candys with the highest 3 values in descending order ",Milk Duds-Fruit Chews-Now Later,31 8 26
-3,DS11_candy_plain3.png,43,11,candy,plain,3,Sort,Almond,L,75 73 71,"In the 'Almond' column, give the row names of the candys with the highest 3 values in descending order ",Pop Rocks-Pixie Sticks-Junior Mints,27 12 28
-3,DS12_candy_plain4.png,44,12,candy,plain,4,Sort,Pluribus,J,98 97 95,"In the 'Pluribus' column, give the row names of the candys with the highest 3 values in descending order ",Milk Duds-Boston Beans-Hersheys Kisses,30 19 16
-3,DS13_movie_bar1.png,61,13,movie,bar,1,Sort,Roger Ebert,I,71 70 68,"In the 'Roger Ebert' column, give the row names of the movies with the highest 3 values in descending order ",Adaline Age-Project Almanac-Ricki Flash,21 16 17
-3,DS14_movie_bar2.png,62,14,movie,bar,2,Sort,Metacritic,K,75 73 71,"In the 'Metacritic' column, give the row names of the movies with the highest 3 values in descending order ",Fantastic Four-Flights Up-Hunting Ground,5 21 20
-3,DS15_movie_bar3.png,63,15,movie,bar,3,Sort,Film Comment,H,98 84 80,"In the 'Film Comment' column, give the row names of the movies with the highest 3 values in descending order ",South Paw-Next Door-Black Sea,10 9 20
-3,DS16_movie_bar4.png,64,16,movie,bar,4,Sort,Fandango,J,71 70 68,"In the 'Fandango' column, give the row names of the movies with the highest 3 values in descending order ",Wild Tales-End Tour-Tomorrow land,18 6 10
-4,DS1_anime_zebra1.png,17,1,anime,zebra,1,Estimate Average,Episodes,D,,"In the 'Episodes' column, calculate a rough estimate of the average value",28.89655172413793,D
-4,DS2_anime_zebra2.png,18,2,anime,zebra,2,Estimate Average,Members,F,,"In the 'Members' column, calculate a rough estimate of the average value",62.37931034482759,F
-4,DS3_anime_zebra3.png,19,3,anime,zebra,3,Estimate Average,Completed,E,,"In the 'Completed' column, calculate a rough estimate of the average value",37.86206896551724,E
-4,DS4_anime_zebra4.png,20,4,anime,zebra,4,Estimate Average,Members,G,,"In the 'Members' column, calculate a rough estimate of the average value",47.6551724137931,G
-4,DS5_cereal_color1.png,5,5,cereal,color,1,Estimate Average,Vitamins,F,,"In the 'Vitamins' column, calculate a rough estimate of the average value",56.93103448275862,F
-4,DS6_cereal_color2.png,6,6,cereal,color,2,Estimate Average,Score,E,,"In the 'Score' column, calculate a rough estimate of the average value",42.10344827586207,E
-4,DS7_cereal_color3.png,7,7,cereal,color,3,Estimate Average,Fat,D,,"In the 'Fat' column, calculate a rough estimate of the average value",35.62068965517241,D
-4,DS8_cereal_color4.png,8,8,cereal,color,4,Estimate Average,Calories,E,,"In the 'Calories' column, calculate a rough estimate of the average value",52.310344827586206,E
-4,DS9_candy_plain1.png,41,9,candy,plain,1,Estimate Average,Caramel,G,,"In the 'Caramel' column, calculate a rough estimate of the average value",37.86206896551724,G
-4,DS10_candy_plain2.png,42,10,candy,plain,2,Estimate Average,Almond,D,,"In the 'Almond' column, calculate a rough estimate of the average value",35.62068965517241,D
-4,DS11_candy_plain3.png,43,11,candy,plain,3,Estimate Average,Caramel,F,,"In the 'Caramel' column, calculate a rough estimate of the average value",50.241379310344826,F
-4,DS12_candy_plain4.png,44,12,candy,plain,4,Estimate Average,Fruity,G,,"In the 'Fruity' column, calculate a rough estimate of the average value",37.86206896551724,G
-4,DS13_movie_bar1.png,61,13,movie,bar,1,Estimate Average,Metacritic,E,,"In the 'Metacritic' column, calculate a rough estimate of the average value",52.310344827586206,E
-4,DS14_movie_bar2.png,62,14,movie,bar,2,Estimate Average,Fandango,G,,"In the 'Fandango' column, calculate a rough estimate of the average value",37.86206896551724,G
-4,DS15_movie_bar3.png,63,15,movie,bar,3,Estimate Average,Metacritic,F,,"In the 'Metacritic' column, calculate a rough estimate of the average value",50.241379310344826,F
-4,DS16_movie_bar4.png,64,16,movie,bar,4,Estimate Average,Hulu,E,,"In the 'Hulu' column, calculate a rough estimate of the average value",52.310344827586206,E
-5,DS1_anime_zebra1.png,17,1,anime,zebra,1,Retrieve Value,Popularity,G,15,"In the 'Popularity' column, find the  with a value equal to '15' ",Attacking Titan,16
-5,DS2_anime_zebra2.png,18,2,anime,zebra,2,Retrieve Value,On-Hold,H,26,"In the 'On-Hold' column, find the  with a value equal to '26' ",Helping Alice,20
-5,DS3_anime_zebra3.png,19,3,anime,zebra,3,Retrieve Value,Watching,I,17,"In the 'Watching' column, find the  with a value equal to '17' ",Beating Music,16
-5,DS4_anime_zebra4.png,20,4,anime,zebra,4,Retrieve Value,On-Hold,J,12,"In the 'On-Hold' column, find the  with a value equal to '12' ",Fafnar Weapon,18
-5,DS5_cereal_color1.png,5,5,cereal,color,1,Retrieve Value,Iron,K,51,"In the 'Iron' column, find the  with a value equal to '51' ",Corn Favorite,17
-5,DS6_cereal_color2.png,6,6,cereal,color,2,Retrieve Value,Carbo,H,32,"In the 'Carbo' column, find the  with a value equal to '32' ",Fruity Pebbles,19
-5,DS7_cereal_color3.png,7,7,cereal,color,3,Retrieve Value,Potassium,I,83,"In the 'Potassium' column, find the  with a value equal to '83' ",Corn Favorite,17
-5,DS8_cereal_color4.png,8,8,cereal,color,4,Retrieve Value,Fat,K,26,"In the 'Fat' column, find the  with a value equal to '26' ",Wonderful Chex,20
-5,DS9_candy_plain1.png,41,9,candy,plain,1,Retrieve Value,Bar,J,32,"In the 'Bar' column, find the  with a value equal to '32' ",Fun Dips,19
-5,DS10_candy_plain2.png,42,10,candy,plain,2,Retrieve Value,Chocolate,K,68,"In the 'Chocolate' column, find the  with a value equal to '68' ",Root Barrels,17
-5,DS11_candy_plain3.png,43,11,candy,plain,3,Retrieve Value,Almond,L,26,"In the 'Almond' column, find the  with a value equal to '26' ",Reese Pieces,11
-5,DS12_candy_plain4.png,44,12,candy,plain,4,Retrieve Value,Caramel,K,15,"In the 'Caramel' column, find the  with a value equal to '15' ",Fruit Chews,15
-5,DS13_movie_bar1.png,61,13,movie,bar,1,Retrieve Value,IMDB,J,67,"In the 'IMDB' column, find the  with a value equal to '67' ",South Paw,20
-5,DS14_movie_bar2.png,62,14,movie,bar,2,Retrieve Value,Hulu,I,79,"In the 'Hulu' column, find the  with a value equal to '79' ",Saint Laurent,18
-5,DS15_movie_bar3.png,63,15,movie,bar,3,Retrieve Value,Naver,L,73,"In the 'Naver' column, find the  with a value equal to '73' ",End Tour,19
-5,DS16_movie_bar4.png,64,16,movie,bar,4,Retrieve Value,Film Comment,K,31,"In the 'Film Comment' column, find the  with a value equal to '31' ",Next Door,17
+1.0,DS1_anime_zebra1.png,17.0,1.0,anime,zebra,1.0,Filter,On-Hold,J,80,"In the 'On-Hold' column, count how many cells exceed the value of '80' ",7,J
+1.0,DS2_anime_zebra2.png,18.0,2.0,anime,zebra,2.0,Filter,Favorites,I,70,"In the 'Favorites' column, count how many cells exceed the value of '70' ",6,I
+1.0,DS3_anime_zebra3.png,19.0,3.0,anime,zebra,3.0,Filter,On-Hold,G,88,"In the 'On-Hold' column, count how many cells exceed the value of '88' ",5,G
+1.0,DS4_anime_zebra4.png,20.0,4.0,anime,zebra,4.0,Filter,Score,K,43,"In the 'Score' column, count how many cells exceed the value of '43' ",8,K
+1.0,DS5_cereal_color1.png,5.0,5.0,cereal,color,1.0,Filter,Sodium,I,57,"In the 'Sodium' column, count how many cells exceed the value of '57' ",8,I
+1.0,DS6_cereal_color2.png,6.0,6.0,cereal,color,2.0,Filter,Carbo,H,70,"In the 'Carbo' column, count how many cells exceed the value of '70' ",5,H
+1.0,DS7_cereal_color3.png,7.0,7.0,cereal,color,3.0,Filter,Protein,J,45,"In the 'Protein' column, count how many cells exceed the value of '45' ",6,J
+1.0,DS8_cereal_color4.png,8.0,8.0,cereal,color,4.0,Filter,Fat,K,60,"In the 'Fat' column, count how many cells exceed the value of '60' ",7,K
+1.0,DS9_candy_plain1.png,41.0,9.0,candy,plain,1.0,Filter,Fruity,K,66,"In the 'Fruity' column, count how many cells exceed the value of '66' ",5,K
+1.0,DS10_candy_plain2.png,42.0,10.0,candy,plain,2.0,Filter,Rating,J,38,"In the 'Rating' column, count how many cells exceed the value of '38' ",8,J
+1.0,DS11_candy_plain3.png,43.0,11.0,candy,plain,3.0,Filter,Pluribus,G,50,"In the 'Pluribus' column, count how many cells exceed the value of '50' ",7,G
+1.0,DS12_candy_plain4.png,44.0,12.0,candy,plain,4.0,Filter,Nougat,I,57,"In the 'Nougat' column, count how many cells exceed the value of '57' ",6,I
+1.0,DS13_movie_bar1.png,61.0,13.0,movie,bar,1.0,Filter,Fandango,H,70,"In the 'Fandango' column, count how many cells exceed the value of '70' ",5,H
+1.0,DS14_movie_bar2.png,62.0,14.0,movie,bar,2.0,Filter,Hulu,I,76,"In the 'Hulu' column, count how many cells exceed the value of '76' ",8,I
+1.0,DS15_movie_bar3.png,63.0,15.0,movie,bar,3.0,Filter,PluggedIn,J,54,"In the 'PluggedIn' column, count how many cells exceed the value of '54' ",7,J
+1.0,DS16_movie_bar4.png,64.0,16.0,movie,bar,4.0,Filter,Netflix,G,57,"In the 'Netflix' column, count how many cells exceed the value of '57' ",6,G
+2.0,DS1_anime_zebra1.png,17.0,1.0,anime,zebra,1.0,Correlation,Episodes,C,0.9584557641748676,Determine which of the last 5 columns is most positively correalated with the first column named 'Episodes' ,Completed,I
+2.0,DS2_anime_zebra2.png,18.0,2.0,anime,zebra,2.0,Correlation,Plan to Watch,C,0.9790768125482828,Determine which of the last 5 columns is most positively correalated with the first column named 'Plan to Watch' ,Favorites,L
+2.0,DS3_anime_zebra3.png,19.0,3.0,anime,zebra,3.0,Correlation,Completed,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'Completed' ,Episodes,K
+2.0,DS4_anime_zebra4.png,20.0,4.0,anime,zebra,4.0,Correlation,Score,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Score' ,Dropped,J
+2.0,DS5_cereal_color1.png,5.0,5.0,cereal,color,1.0,Correlation,Potassium,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'Potassium' ,Sugars,K
+2.0,DS6_cereal_color2.png,6.0,6.0,cereal,color,2.0,Correlation,Calories,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'Calories' ,Protein,I
+2.0,DS7_cereal_color3.png,7.0,7.0,cereal,color,3.0,Correlation,Iron,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Iron' ,Carbo,J
+2.0,DS8_cereal_color4.png,8.0,8.0,cereal,color,4.0,Correlation,Vitamins,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Vitamins' ,Potassium,L
+2.0,DS9_candy_plain1.png,41.0,9.0,candy,plain,1.0,Correlation,Hard,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Hard' ,Chocolate,L
+2.0,DS10_candy_plain2.png,42.0,10.0,candy,plain,2.0,Correlation,SugarPercent,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'SugarPercent' ,Rating,J
+2.0,DS11_candy_plain3.png,43.0,11.0,candy,plain,3.0,Correlation,Rating,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Rating' ,Chocolate,K
+2.0,DS12_candy_plain4.png,44.0,12.0,candy,plain,4.0,Correlation,Hard,C,0.992274757693407,Determine which of the last 5 columns is most positively correalated with the first column named 'Hard' ,Nougat,I
+2.0,DS13_movie_bar1.png,61.0,13.0,movie,bar,1.0,Correlation,Naver,C,0.9922747576934072,Determine which of the last 5 columns is most positively correalated with the first column named 'Naver' ,Roger Ebert,I
+2.0,DS14_movie_bar2.png,62.0,14.0,movie,bar,2.0,Correlation,MrQE,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'MrQE' ,Netflix,L
+2.0,DS15_movie_bar3.png,63.0,15.0,movie,bar,3.0,Correlation,RottenTomatoes,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'RottenTomatoes' ,Netflix,K
+2.0,DS16_movie_bar4.png,64.0,16.0,movie,bar,4.0,Correlation,IMDB,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'IMDB' ,Fandango,J
+3.0,DS1_anime_zebra1.png,17.0,1.0,anime,zebra,1.0,Sort,Completed,L,60 56 53,"In the 'Completed' column, give the row names of the animes with the highest 3 values in descending order ",Hungry Heart-Fighting Animal-Trinity Blood,13 18 27
+3.0,DS2_anime_zebra2.png,18.0,2.0,anime,zebra,2.0,Sort,Favorites,I,88 86 83,"In the 'Favorites' column, give the row names of the animes with the highest 3 values in descending order ",Cursing Notebook-Fourth Stage-Hungry Heart,5 18 6
+3.0,DS3_anime_zebra3.png,19.0,3.0,anime,zebra,3.0,Sort,Episodes,J,75 73 71,"In the 'Episodes' column, give the row names of the animes with the highest 3 values in descending order ",Fighting Animal-Legendary Forks-First Stage,5 10 11
+3.0,DS4_anime_zebra4.png,20.0,4.0,anime,zebra,4.0,Sort,Score,K,74 73 70,"In the 'Score' column, give the row names of the animes with the highest 3 values in descending order ",Helping Alice-Neon Genesis-Queen Kingdom,6 24 22
+3.0,DS5_cereal_color1.png,5.0,5.0,cereal,color,1.0,Sort,Calories,H,88 86 83,"In the 'Calories' column, give the row names of the cereals with the highest 3 values in descending order ",Natural Bran-Almond Raisin-Fruity Pebbles,5 19 20
+3.0,DS6_cereal_color2.png,6.0,6.0,cereal,color,2.0,Sort,Potassium,I,71 70 68,"In the 'Potassium' column, give the row names of the cereals with the highest 3 values in descending order ",Colorful Bran-Apple Jacks-Wheat Cream,22 3 7
+3.0,DS7_cereal_color3.png,7.0,7.0,cereal,color,3.0,Sort,Protein,J,60 56 53,"In the 'Protein' column, give the row names of the cereals with the highest 3 values in descending order ",Natural Bran-Golden Crisp-Wonderful Chex,7 23 18
+3.0,DS8_cereal_color4.png,8.0,8.0,cereal,color,4.0,Sort,Fat,K,75 73 71,"In the 'Fat' column, give the row names of the cereals with the highest 3 values in descending order ",Grape Flakes-Count Chocula-Golden Crisp,16 10 19
+3.0,DS9_candy_plain1.png,41.0,9.0,candy,plain,1.0,Sort,SugarPercent,H,98 84 80,"In the 'SugarPercent' column, give the row names of the candys with the highest 3 values in descending order ",Gold Bears-Milk Duds-Berry Chews,30 9 11
+3.0,DS10_candy_plain2.png,42.0,10.0,candy,plain,2.0,Sort,Chocolate,K,75 73 71,"In the 'Chocolate' column, give the row names of the candys with the highest 3 values in descending order ",Milk Duds-Fruit Chews-Now Later,31 8 26
+3.0,DS11_candy_plain3.png,43.0,11.0,candy,plain,3.0,Sort,Almond,L,75 73 71,"In the 'Almond' column, give the row names of the candys with the highest 3 values in descending order ",Pop Rocks-Pixie Sticks-Junior Mints,27 12 28
+3.0,DS12_candy_plain4.png,44.0,12.0,candy,plain,4.0,Sort,Pluribus,J,98 97 95,"In the 'Pluribus' column, give the row names of the candys with the highest 3 values in descending order ",Milk Duds-Boston Beans-Hersheys Kisses,30 19 16
+3.0,DS13_movie_bar1.png,61.0,13.0,movie,bar,1.0,Sort,Roger Ebert,I,71 70 68,"In the 'Roger Ebert' column, give the row names of the movies with the highest 3 values in descending order ",Adaline Age-Project Almanac-Ricki Flash,21 16 17
+3.0,DS14_movie_bar2.png,62.0,14.0,movie,bar,2.0,Sort,Metacritic,K,75 73 71,"In the 'Metacritic' column, give the row names of the movies with the highest 3 values in descending order ",Fantastic Four-Flights Up-Hunting Ground,5 21 20
+3.0,DS15_movie_bar3.png,63.0,15.0,movie,bar,3.0,Sort,Film Comment,H,98 84 80,"In the 'Film Comment' column, give the row names of the movies with the highest 3 values in descending order ",South Paw-Next Door-Black Sea,10 9 20
+3.0,DS16_movie_bar4.png,64.0,16.0,movie,bar,4.0,Sort,Fandango,J,71 70 68,"In the 'Fandango' column, give the row names of the movies with the highest 3 values in descending order ",Wild Tales-End Tour-Tomorrow land,18 6 10
+4.0,DS1_anime_zebra1.png,17.0,1.0,anime,zebra,1.0,Estimate Average,Episodes,D,,"In the 'Episodes' column, calculate a rough estimate of the average value",28.89655172413793,D
+4.0,DS2_anime_zebra2.png,18.0,2.0,anime,zebra,2.0,Estimate Average,Members,F,,"In the 'Members' column, calculate a rough estimate of the average value",62.37931034482759,F
+4.0,DS3_anime_zebra3.png,19.0,3.0,anime,zebra,3.0,Estimate Average,Completed,E,,"In the 'Completed' column, calculate a rough estimate of the average value",37.86206896551724,E
+4.0,DS4_anime_zebra4.png,20.0,4.0,anime,zebra,4.0,Estimate Average,Members,G,,"In the 'Members' column, calculate a rough estimate of the average value",47.6551724137931,G
+4.0,DS5_cereal_color1.png,5.0,5.0,cereal,color,1.0,Estimate Average,Vitamins,F,,"In the 'Vitamins' column, calculate a rough estimate of the average value",56.93103448275862,F
+4.0,DS6_cereal_color2.png,6.0,6.0,cereal,color,2.0,Estimate Average,Score,E,,"In the 'Score' column, calculate a rough estimate of the average value",42.10344827586207,E
+4.0,DS7_cereal_color3.png,7.0,7.0,cereal,color,3.0,Estimate Average,Fat,D,,"In the 'Fat' column, calculate a rough estimate of the average value",35.62068965517241,D
+4.0,DS8_cereal_color4.png,8.0,8.0,cereal,color,4.0,Estimate Average,Calories,E,,"In the 'Calories' column, calculate a rough estimate of the average value",52.310344827586206,E
+4.0,DS9_candy_plain1.png,41.0,9.0,candy,plain,1.0,Estimate Average,Caramel,G,,"In the 'Caramel' column, calculate a rough estimate of the average value",37.86206896551724,G
+4.0,DS10_candy_plain2.png,42.0,10.0,candy,plain,2.0,Estimate Average,Almond,D,,"In the 'Almond' column, calculate a rough estimate of the average value",35.62068965517241,D
+4.0,DS11_candy_plain3.png,43.0,11.0,candy,plain,3.0,Estimate Average,Caramel,F,,"In the 'Caramel' column, calculate a rough estimate of the average value",50.241379310344826,F
+4.0,DS12_candy_plain4.png,44.0,12.0,candy,plain,4.0,Estimate Average,Fruity,G,,"In the 'Fruity' column, calculate a rough estimate of the average value",37.86206896551724,G
+4.0,DS13_movie_bar1.png,61.0,13.0,movie,bar,1.0,Estimate Average,Metacritic,E,,"In the 'Metacritic' column, calculate a rough estimate of the average value",52.310344827586206,E
+4.0,DS14_movie_bar2.png,62.0,14.0,movie,bar,2.0,Estimate Average,Fandango,G,,"In the 'Fandango' column, calculate a rough estimate of the average value",37.86206896551724,G
+4.0,DS15_movie_bar3.png,63.0,15.0,movie,bar,3.0,Estimate Average,Metacritic,F,,"In the 'Metacritic' column, calculate a rough estimate of the average value",50.241379310344826,F
+4.0,DS16_movie_bar4.png,64.0,16.0,movie,bar,4.0,Estimate Average,Hulu,E,,"In the 'Hulu' column, calculate a rough estimate of the average value",52.310344827586206,E
+5.0,DS1_anime_zebra1.png,17.0,1.0,anime,zebra,1.0,Retrieve Value,Popularity,G,15,"In the 'Popularity' column, find the  with a value equal to '15' ",Attacking Titan,16
+5.0,DS2_anime_zebra2.png,18.0,2.0,anime,zebra,2.0,Retrieve Value,On-Hold,H,26,"In the 'On-Hold' column, find the  with a value equal to '26' ",Helping Alice,20
+5.0,DS3_anime_zebra3.png,19.0,3.0,anime,zebra,3.0,Retrieve Value,Watching,I,17,"In the 'Watching' column, find the  with a value equal to '17' ",Beating Music,16
+5.0,DS4_anime_zebra4.png,20.0,4.0,anime,zebra,4.0,Retrieve Value,On-Hold,J,12,"In the 'On-Hold' column, find the  with a value equal to '12' ",Fafnar Weapon,18
+5.0,DS5_cereal_color1.png,5.0,5.0,cereal,color,1.0,Retrieve Value,Iron,K,51,"In the 'Iron' column, find the  with a value equal to '51' ",Corn Favorite,17
+5.0,DS6_cereal_color2.png,6.0,6.0,cereal,color,2.0,Retrieve Value,Carbo,H,32,"In the 'Carbo' column, find the  with a value equal to '32' ",Fruity Pebbles,19
+5.0,DS7_cereal_color3.png,7.0,7.0,cereal,color,3.0,Retrieve Value,Potassium,I,83,"In the 'Potassium' column, find the  with a value equal to '83' ",Corn Favorite,17
+5.0,DS8_cereal_color4.png,8.0,8.0,cereal,color,4.0,Retrieve Value,Fat,K,26,"In the 'Fat' column, find the  with a value equal to '26' ",Wonderful Chex,20
+5.0,DS9_candy_plain1.png,41.0,9.0,candy,plain,1.0,Retrieve Value,Bar,J,32,"In the 'Bar' column, find the  with a value equal to '32' ",Fun Dips,19
+5.0,DS10_candy_plain2.png,42.0,10.0,candy,plain,2.0,Retrieve Value,Chocolate,K,68,"In the 'Chocolate' column, find the  with a value equal to '68' ",Root Barrels,17
+5.0,DS11_candy_plain3.png,43.0,11.0,candy,plain,3.0,Retrieve Value,Almond,L,26,"In the 'Almond' column, find the  with a value equal to '26' ",Reese Pieces,11
+5.0,DS12_candy_plain4.png,44.0,12.0,candy,plain,4.0,Retrieve Value,Caramel,K,15,"In the 'Caramel' column, find the  with a value equal to '15' ",Fruit Chews,15
+5.0,DS13_movie_bar1.png,61.0,13.0,movie,bar,1.0,Retrieve Value,IMDB,J,67,"In the 'IMDB' column, find the  with a value equal to '67' ",South Paw,20
+5.0,DS14_movie_bar2.png,62.0,14.0,movie,bar,2.0,Retrieve Value,Hulu,I,79,"In the 'Hulu' column, find the  with a value equal to '79' ",Saint Laurent,18
+5.0,DS15_movie_bar3.png,63.0,15.0,movie,bar,3.0,Retrieve Value,Naver,L,73,"In the 'Naver' column, find the  with a value equal to '73' ",End Tour,19
+5.0,DS16_movie_bar4.png,64.0,16.0,movie,bar,4.0,Retrieve Value,Film Comment,K,31,"In the 'Film Comment' column, find the  with a value equal to '31' ",Next Door,17
+,,,,,,,,On-Hold,J,80,"In the 'On-Hold' column, count how many cells exceed the value of '80' ",7,J
+,,,,,,,,Favorites,I,70,"In the 'Favorites' column, count how many cells exceed the value of '70' ",6,I
+,,,,,,,,On-Hold,G,88,"In the 'On-Hold' column, count how many cells exceed the value of '88' ",5,G
+,,,,,,,,Score,K,43,"In the 'Score' column, count how many cells exceed the value of '43' ",8,K
+,,,,,,,,Sodium,I,57,"In the 'Sodium' column, count how many cells exceed the value of '57' ",8,I
+,,,,,,,,Carbo,H,70,"In the 'Carbo' column, count how many cells exceed the value of '70' ",5,H
+,,,,,,,,Protein,J,45,"In the 'Protein' column, count how many cells exceed the value of '45' ",6,J
+,,,,,,,,Fat,K,60,"In the 'Fat' column, count how many cells exceed the value of '60' ",7,K
+,,,,,,,,Fruity,K,66,"In the 'Fruity' column, count how many cells exceed the value of '66' ",5,K
+,,,,,,,,Rating,J,38,"In the 'Rating' column, count how many cells exceed the value of '38' ",8,J
+,,,,,,,,Pluribus,G,50,"In the 'Pluribus' column, count how many cells exceed the value of '50' ",7,G
+,,,,,,,,Nougat,I,57,"In the 'Nougat' column, count how many cells exceed the value of '57' ",6,I
+,,,,,,,,Fandango,H,70,"In the 'Fandango' column, count how many cells exceed the value of '70' ",5,H
+,,,,,,,,Hulu,I,76,"In the 'Hulu' column, count how many cells exceed the value of '76' ",8,I
+,,,,,,,,PluggedIn,J,54,"In the 'PluggedIn' column, count how many cells exceed the value of '54' ",7,J
+,,,,,,,,Netflix,G,57,"In the 'Netflix' column, count how many cells exceed the value of '57' ",6,G
+,,,,,,,,Episodes,C,0.9584557641748676,Determine which of the last 5 columns is most positively correalated with the first column named 'Episodes' ,Completed,I
+,,,,,,,,Plan to Watch,C,0.9790768125482828,Determine which of the last 5 columns is most positively correalated with the first column named 'Plan to Watch' ,Favorites,L
+,,,,,,,,Completed,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'Completed' ,Episodes,K
+,,,,,,,,Score,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Score' ,Dropped,J
+,,,,,,,,Potassium,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'Potassium' ,Sugars,K
+,,,,,,,,Calories,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'Calories' ,Protein,I
+,,,,,,,,Iron,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Iron' ,Carbo,J
+,,,,,,,,Vitamins,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Vitamins' ,Potassium,L
+,,,,,,,,Hard,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Hard' ,Chocolate,L
+,,,,,,,,SugarPercent,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'SugarPercent' ,Rating,J
+,,,,,,,,Rating,C,0.9994148327618344,Determine which of the last 5 columns is most positively correalated with the first column named 'Rating' ,Chocolate,K
+,,,,,,,,Hard,C,0.992274757693407,Determine which of the last 5 columns is most positively correalated with the first column named 'Hard' ,Nougat,I
+,,,,,,,,Naver,C,0.9922747576934072,Determine which of the last 5 columns is most positively correalated with the first column named 'Naver' ,Roger Ebert,I
+,,,,,,,,MrQE,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'MrQE' ,Netflix,L
+,,,,,,,,RottenTomatoes,C,0.9994148327618346,Determine which of the last 5 columns is most positively correalated with the first column named 'RottenTomatoes' ,Netflix,K
+,,,,,,,,IMDB,C,0.9922747576934068,Determine which of the last 5 columns is most positively correalated with the first column named 'IMDB' ,Fandango,J
+,,,,,,,,Completed,L,60 56 53,"In the 'Completed' column, give the row names of the animes with the highest 3 values in descending order ",Hungry Heart-Fighting Animal-Trinity Blood,13 18 27
+,,,,,,,,Favorites,I,88 86 83,"In the 'Favorites' column, give the row names of the animes with the highest 3 values in descending order ",Cursing Notebook-Fourth Stage-Hungry Heart,5 18 6
+,,,,,,,,Episodes,J,75 73 71,"In the 'Episodes' column, give the row names of the animes with the highest 3 values in descending order ",Fighting Animal-Legendary Forks-First Stage,5 10 11
+,,,,,,,,Score,K,74 73 70,"In the 'Score' column, give the row names of the animes with the highest 3 values in descending order ",Helping Alice-Neon Genesis-Queen Kingdom,6 24 22
+,,,,,,,,Calories,H,88 86 83,"In the 'Calories' column, give the row names of the cereals with the highest 3 values in descending order ",Natural Bran-Almond Raisin-Fruity Pebbles,5 19 20
+,,,,,,,,Potassium,I,71 70 68,"In the 'Potassium' column, give the row names of the cereals with the highest 3 values in descending order ",Colorful Bran-Apple Jacks-Wheat Cream,22 3 7
+,,,,,,,,Protein,J,60 56 53,"In the 'Protein' column, give the row names of the cereals with the highest 3 values in descending order ",Natural Bran-Golden Crisp-Wonderful Chex,7 23 18
+,,,,,,,,Fat,K,75 73 71,"In the 'Fat' column, give the row names of the cereals with the highest 3 values in descending order ",Grape Flakes-Count Chocula-Golden Crisp,16 10 19
+,,,,,,,,SugarPercent,H,98 84 80,"In the 'SugarPercent' column, give the row names of the candys with the highest 3 values in descending order ",Gold Bears-Milk Duds-Berry Chews,30 9 11
+,,,,,,,,Chocolate,K,75 73 71,"In the 'Chocolate' column, give the row names of the candys with the highest 3 values in descending order ",Milk Duds-Fruit Chews-Now Later,31 8 26
+,,,,,,,,Almond,L,75 73 71,"In the 'Almond' column, give the row names of the candys with the highest 3 values in descending order ",Pop Rocks-Pixie Sticks-Junior Mints,27 12 28
+,,,,,,,,Pluribus,J,98 97 95,"In the 'Pluribus' column, give the row names of the candys with the highest 3 values in descending order ",Milk Duds-Boston Beans-Hersheys Kisses,30 19 16
+,,,,,,,,Roger Ebert,I,71 70 68,"In the 'Roger Ebert' column, give the row names of the movies with the highest 3 values in descending order ",Adaline Age-Project Almanac-Ricki Flash,21 16 17
+,,,,,,,,Metacritic,K,75 73 71,"In the 'Metacritic' column, give the row names of the movies with the highest 3 values in descending order ",Fantastic Four-Flights Up-Hunting Ground,5 21 20
+,,,,,,,,Film Comment,H,98 84 80,"In the 'Film Comment' column, give the row names of the movies with the highest 3 values in descending order ",South Paw-Next Door-Black Sea,10 9 20
+,,,,,,,,Fandango,J,71 70 68,"In the 'Fandango' column, give the row names of the movies with the highest 3 values in descending order ",Wild Tales-End Tour-Tomorrow land,18 6 10
+,,,,,,,,Episodes,D,,"In the 'Episodes' column, calculate a rough estimate of the average value",28.89655172413793,D
+,,,,,,,,Members,F,,"In the 'Members' column, calculate a rough estimate of the average value",62.37931034482759,F
+,,,,,,,,Completed,E,,"In the 'Completed' column, calculate a rough estimate of the average value",37.86206896551724,E
+,,,,,,,,Members,G,,"In the 'Members' column, calculate a rough estimate of the average value",47.6551724137931,G
+,,,,,,,,Vitamins,F,,"In the 'Vitamins' column, calculate a rough estimate of the average value",56.93103448275862,F
+,,,,,,,,Score,E,,"In the 'Score' column, calculate a rough estimate of the average value",42.10344827586207,E
+,,,,,,,,Fat,D,,"In the 'Fat' column, calculate a rough estimate of the average value",35.62068965517241,D
+,,,,,,,,Calories,E,,"In the 'Calories' column, calculate a rough estimate of the average value",52.310344827586206,E
+,,,,,,,,Caramel,G,,"In the 'Caramel' column, calculate a rough estimate of the average value",37.86206896551724,G
+,,,,,,,,Almond,D,,"In the 'Almond' column, calculate a rough estimate of the average value",35.62068965517241,D
+,,,,,,,,Caramel,F,,"In the 'Caramel' column, calculate a rough estimate of the average value",50.241379310344826,F
+,,,,,,,,Fruity,G,,"In the 'Fruity' column, calculate a rough estimate of the average value",37.86206896551724,G
+,,,,,,,,Metacritic,E,,"In the 'Metacritic' column, calculate a rough estimate of the average value",52.310344827586206,E
+,,,,,,,,Fandango,G,,"In the 'Fandango' column, calculate a rough estimate of the average value",37.86206896551724,G
+,,,,,,,,Metacritic,F,,"In the 'Metacritic' column, calculate a rough estimate of the average value",50.241379310344826,F
+,,,,,,,,Hulu,E,,"In the 'Hulu' column, calculate a rough estimate of the average value",52.310344827586206,E
+,,,,,,,,Popularity,G,15,"In the 'Popularity' column, find the  with a value equal to '15' ",Attacking Titan,16
+,,,,,,,,On-Hold,H,26,"In the 'On-Hold' column, find the  with a value equal to '26' ",Helping Alice,20
+,,,,,,,,Watching,I,17,"In the 'Watching' column, find the  with a value equal to '17' ",Beating Music,16
+,,,,,,,,On-Hold,J,12,"In the 'On-Hold' column, find the  with a value equal to '12' ",Fafnar Weapon,18
+,,,,,,,,Iron,K,51,"In the 'Iron' column, find the  with a value equal to '51' ",Corn Favorite,17
+,,,,,,,,Carbo,H,32,"In the 'Carbo' column, find the  with a value equal to '32' ",Fruity Pebbles,19
+,,,,,,,,Potassium,I,83,"In the 'Potassium' column, find the  with a value equal to '83' ",Corn Favorite,17
+,,,,,,,,Fat,K,26,"In the 'Fat' column, find the  with a value equal to '26' ",Wonderful Chex,20
+,,,,,,,,Bar,J,32,"In the 'Bar' column, find the  with a value equal to '32' ",Fun Dips,19
+,,,,,,,,Chocolate,K,68,"In the 'Chocolate' column, find the  with a value equal to '68' ",Root Barrels,17
+,,,,,,,,Almond,L,26,"In the 'Almond' column, find the  with a value equal to '26' ",Reese Pieces,11
+,,,,,,,,Caramel,K,15,"In the 'Caramel' column, find the  with a value equal to '15' ",Fruit Chews,15
+,,,,,,,,IMDB,J,67,"In the 'IMDB' column, find the  with a value equal to '67' ",South Paw,20
+,,,,,,,,Hulu,I,79,"In the 'Hulu' column, find the  with a value equal to '79' ",Saint Laurent,18
+,,,,,,,,Naver,L,73,"In the 'Naver' column, find the  with a value equal to '73' ",End Tour,19
+,,,,,,,,Film Comment,K,31,"In the 'Film Comment' column, find the  with a value equal to '31' ",Next Door,17
