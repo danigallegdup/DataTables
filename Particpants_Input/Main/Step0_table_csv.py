@@ -12,7 +12,7 @@ def excel_to_csv(workbook_path):
     # Loop through each sheet and save as a CSV file
     for sheet_name in xls.sheet_names:
         df = pd.read_excel(workbook_path, sheet_name=sheet_name)
-        csv_file_path = os.path.join(workbook_dir, f"{workbook_name}_{sheet_name}.csv")
+        csv_file_path = os.path.join(workbook_dir, f"main_all_data.csv")
         df.to_csv(csv_file_path, index=False)
         print(f"Saved {csv_file_path}")
 

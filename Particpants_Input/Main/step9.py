@@ -23,8 +23,8 @@ def modify_files(input_directory, output_directory, input_files):
         # Convert the second column 'Table PNG' values to strings
         df.iloc[:, 1] = df.iloc[:, 1].astype(str)
 
-        # Append 'task2\\T2_' to 'Table PNG' values from lines 18-33 (1-indexed, so 17-32 in 0-indexed)
-        df.iloc[17:33, 1] = 'task2\\T2_' + df.iloc[17:33, 1]
+        # Append 'task2\\T2_' to 'Table PNG' values from lines 17-32 (1-indexed, so 16-31 in 0-indexed)
+        df.iloc[16:32, 1] = 'task2\\T2_' + df.iloc[17:33, 1]
 
         df.iloc[:, 1] = df.iloc[:, 1].apply(lambda x: f'"{x}"')
 
