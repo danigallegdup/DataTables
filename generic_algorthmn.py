@@ -1,6 +1,8 @@
 import numpy as np
 import random
 from deap import base, creator, tools, algorithms
+import pandas as pd
+import matplotlib.pyplot as plt
 
 # Given dataset A
 A = np.array([55, 49, 21, 21, 18, 46, 18, 20, 18, 42, 42, 52, 14, 25, 63, 64, 32, 13, 37, 38, 36, 22, 33, 38, 37, 61, 58, 24, 36])
@@ -55,8 +57,7 @@ B_optimized_ga = A + epsilon_optimized_ga
 final_correlation_ga = np.corrcoef(A, B_optimized_ga)[0, 1]
 final_mae_ga = np.mean(np.abs(A - B_optimized_ga))
 
-import pandas as pd
-import matplotlib.pyplot as plt
+
 
 # Assuming A, B_optimized_ga, and epsilon_optimized_ga are defined
 df = pd.DataFrame({"A": A, "B": B_optimized_ga, "Epsilon": epsilon_optimized_ga})
