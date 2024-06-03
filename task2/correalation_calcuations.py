@@ -117,7 +117,7 @@ def generate_permutations_and_save(numbers, filename):
     for corr in desired_correlations:
         permutation, _ = find_permutation_for_correlation(numbers, corr, tolerance)
         permutations[f"Index_{corr}_Correlation"] = permutation + 1  # Converting to 1-based index
-        permutations[f"Numbers_{corr}_Correlation"] = sort_by_indices(permutation[f"Numbers_{corr}_Correlation"], numbers)
+        #permutations[f"Numbers_{corr}_Correlation"] = sort_by_indices(permutation[f"Numbers_{corr}_Correlation"], numbers)
 
 
     # Create a DataFrame with all permutations
