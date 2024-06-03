@@ -3,54 +3,17 @@ import pandas as pd
 from openpyxl import load_workbook
 import os
 import random
-from sklearn.metrics import mean_absolute_error # type: ignore
+from sklearn.metrics import mean_absolute_error 
 from scipy.stats import pearsonr
 from sklearn.metrics import mean_squared_error
 
 
-
-
-
-# def generate_correlated_numbers(dataset_num, target_corr, target_mean_absolute_error,  target_Root_Mean_Squared_Error, size=1000, tolerance=0.01, noise_bias=17):
-#     np.random.seed(42)  # For reproducibility
-#     n = len(dataset_num)
-
-#     # Generate random numbers with standard normal distribution
-#     random_numbers = np.random.normal(0, 1, n)
-
-#     # Create a covariance matrix based on the target correlation
-#     covariance_matrix = np.array([[1, target_corr], [target_corr, 1]])
-    
-#     # Perform Cholesky decomposition to create a transformation matrix
-#     L = np.linalg.cholesky(covariance_matrix)
-    
-#     # Create a new matrix of the initial random numbers
-#     z = np.vstack([dataset_num, random_numbers])
-    
-#     # Apply the linear transformation
-#     transformed_data = np.dot(L, z)
-    
-#     # Normalize the new correlated data to have the same mean and std as the given numbers
-#     correlated_numbers = transformed_data[1, :]
-#     correlated_numbers = correlated_numbers * (dataset_num.std() / np.std(correlated_numbers))
-#     correlated_numbers = correlated_numbers + (dataset_num.mean() - np.mean(correlated_numbers))
-
-#     # Apply min-max normalization to scale the numbers to the range [11, 98]
-#     min_val = 11
-#     max_val = 98
-#     correlated_numbers = (correlated_numbers - np.min(correlated_numbers)) * (max_val - min_val) / (np.max(correlated_numbers) - np.min(correlated_numbers)) + min_val
-    
-#     # Convert the numbers to integers
-#     correlated_numbers = correlated_numbers.astype(int)
-    
-#     return correlated_numbers
-
-
 def generate_correlated_numbers(dataset_num, target_corr, target_mean_absolute_error, target_Root_Mean_Squared_Error, size=1000, tolerance=0.01, noise_bias=17):
-    np.random.seed(42)  # For reproducibility
-    n = len(dataset_num)
+    # Set a random seed for reproducibility
+    np.random.seed(42)
+    n = len(dataset_num)  # Get the number of elements in the dataset
 
-    # Generate initial numbers
+    # Generate initial random numbers with a standard normal distribution
     random_numbers = np.random.normal(0, 1, n)
 
     # Create a covariance matrix based on the target correlation
@@ -59,14 +22,15 @@ def generate_correlated_numbers(dataset_num, target_corr, target_mean_absolute_e
     # Perform Cholesky decomposition to create a transformation matrix
     L = np.linalg.cholesky(covariance_matrix)
     
-    # Create a new matrix of the initial random numbers
+    # Stack the original dataset and the random numbers vertically
     z = np.vstack([dataset_num, random_numbers])
     
-    # Apply the linear transformation
+    # Apply the linear transformation to introduce the desired correlation
     transformed_data = np.dot(L, z)
     
-    # Normalize the new correlated data to have the same mean and std as the given numbers
+    # Extract the correlated data
     correlated_numbers = transformed_data[1, :]
+    # Normalize the correlated data to have the same mean and standard deviation as the original dataset
     correlated_numbers = correlated_numbers * (dataset_num.std() / np.std(correlated_numbers))
     correlated_numbers = correlated_numbers + (dataset_num.mean() - np.mean(correlated_numbers))
 
@@ -78,22 +42,22 @@ def generate_correlated_numbers(dataset_num, target_corr, target_mean_absolute_e
     # Convert the numbers to integers
     correlated_numbers = correlated_numbers.astype(int)
 
-    # Calculate initial MAE and RMSE
+    # Calculate initial mean absolute error (MAE) and root mean squared error (RMSE)
     mae = mean_absolute_error(dataset_num, correlated_numbers)
     rmse = np.sqrt(mean_squared_error(dataset_num, correlated_numbers))
 
-    max_iterations = 1000  # Adjust this value as needed
+    max_iterations = 1000  # Set a limit for the number of iterations
     iteration = 0
     
-    # Adjust numbers until MAE and RMSE are close to target values or maximum iterations reached
+    # Adjust numbers until MAE and RMSE are close to target values or maximum iterations are reached
     while (abs(mae - target_mean_absolute_error) > tolerance or abs(rmse - target_Root_Mean_Squared_Error) > tolerance) and iteration < max_iterations:
-        # Adjust numbers by adding a small random noise
+        # Add a small random noise to the correlated numbers
         noise = np.random.normal(0, 0.01, size=correlated_numbers.shape)
         correlated_numbers = correlated_numbers.astype(float)  # Convert to float before adding noise
         correlated_numbers += noise
     
         # Ensure the numbers are still within the desired range
-        correlated_numbers = np.clip(correlated_numbers, 11, 98)
+        correlated_numbers = np.clip(correlated_numbers, min_val, max_val)
     
         # Recalculate MAE and RMSE
         mae = mean_absolute_error(dataset_num, correlated_numbers)
@@ -103,9 +67,8 @@ def generate_correlated_numbers(dataset_num, target_corr, target_mean_absolute_e
     
     # Convert the numbers back to integers
     correlated_numbers = correlated_numbers.astype(int)
-    
     return correlated_numbers
-
+    
 
 def dataSet(ds_num):
     datasets = {
@@ -150,10 +113,6 @@ def answer(Current_DS):
         actual_corr, _ = pearsonr(Current_Corr_Set, correlated_numbers)
         print(f'Actual correlation: {actual_corr}')
 
-        # Calculate and print the actual RMSE
-        actual_rmse = mean_squared_error(Current_Corr_Set, correlated_numbers, squared=False)
-        print(f'Actual RMSE: {actual_rmse}')
-
         # Generate correlated numbers
         correlated_numbers = generate_correlated_numbers(Current_Corr_Set, target_corr, target_mean_absolute_error,  target_Root_Mean_Squared_Error )
         return correlated_numbers
@@ -172,9 +131,6 @@ def main():
     
     # Output the DataFrame to an Excel file
     df.to_excel('correlated_numbers.xlsx', index=False)
-
-
-    
 
   
 if __name__ == "__main__":
