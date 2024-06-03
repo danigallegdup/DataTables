@@ -8,7 +8,7 @@ from scipy.stats import pearsonr
 from sklearn.metrics import mean_squared_error
 
 
-def generate_correlated_numbers(dataset_num, target_corr, target_mean_absolute_error, target_Root_Mean_Squared_Error, size=1000, tolerance=0.01, noise_bias=17):
+def generate_correlated_numbers(dataset_num, target_corr, target_mean_absolute_error, size=1000, tolerance=0.01):
     # Set a random seed for reproducibility
     np.random.seed(42)
     n = len(dataset_num)  # Get the number of elements in the dataset
@@ -44,13 +44,12 @@ def generate_correlated_numbers(dataset_num, target_corr, target_mean_absolute_e
 
     # Calculate initial mean absolute error (MAE) and root mean squared error (RMSE)
     mae = mean_absolute_error(dataset_num, correlated_numbers)
-    rmse = np.sqrt(mean_squared_error(dataset_num, correlated_numbers))
 
     max_iterations = 1000  # Set a limit for the number of iterations
     iteration = 0
     
     # Adjust numbers until MAE and RMSE are close to target values or maximum iterations are reached
-    while (abs(mae - target_mean_absolute_error) > tolerance or abs(rmse - target_Root_Mean_Squared_Error) > tolerance) and iteration < max_iterations:
+    while (abs(mae - target_mean_absolute_error) > tolerance) and iteration < max_iterations:
         # Add a small random noise to the correlated numbers
         noise = np.random.normal(0, 0.01, size=correlated_numbers.shape)
         correlated_numbers = correlated_numbers.astype(float)  # Convert to float before adding noise
@@ -100,7 +99,7 @@ def answer(Current_DS):
         target_Root_Mean_Squared_Error = 13
 
         # Generate correlated numbers
-        correlated_numbers = generate_correlated_numbers(Current_Corr_Set, target_corr, target_mean_absolute_error,  target_Root_Mean_Squared_Error )
+        correlated_numbers = generate_correlated_numbers(Current_Corr_Set, target_corr, target_mean_absolute_error)
 
         for i in correlated_numbers:
             print(i)
@@ -113,8 +112,6 @@ def answer(Current_DS):
         actual_corr, _ = pearsonr(Current_Corr_Set, correlated_numbers)
         print(f'Actual correlation: {actual_corr}')
 
-        # Generate correlated numbers
-        correlated_numbers = generate_correlated_numbers(Current_Corr_Set, target_corr, target_mean_absolute_error,  target_Root_Mean_Squared_Error )
         return correlated_numbers
 
 

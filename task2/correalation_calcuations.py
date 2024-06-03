@@ -74,8 +74,13 @@ def calculate_metric(set1, set2):
     std_diff = np.std(set1) - np.std(set2)
     mean_diff = np.mean(set1) - np.mean(set2)
     # print(f'Correlation coefficient: {(correlation_coefficient, range_diff, mae, rmse, std_diff, mean_diff)}')
-    return (correlation_coefficient, range_diff, mae, rmse, std_diff, mean_diff)
-
+    output = (("Correlation coefficient", correlation_coefficient), 
+              ("Range Difference", range_diff),
+              ("Mean Absolute Error", mae), 
+              ("Root Mean Square Error", rmse), 
+              ("Standard Deviation Difference", std_diff), 
+              ("Mean Difference", mean_diff))
+    return output
 
 
 # Function to calculate correlation
@@ -117,7 +122,7 @@ def generate_permutations_and_save(numbers, filename):
     for corr in desired_correlations:
         permutation, _ = find_permutation_for_correlation(numbers, corr, tolerance)
         permutations[f"Index_{corr}_Correlation"] = permutation + 1  # Converting to 1-based index
-        #permutations[f"Numbers_{corr}_Correlation"] = sort_by_indices(permutation[f"Numbers_{corr}_Correlation"], numbers)
+        permutations[f"Numbers_{corr}_Correlation"] = sort_by_indices(permutations[f"Index_{corr}_Correlation"] - 1, numbers)
 
 
     # Create a DataFrame with all permutations
@@ -138,9 +143,20 @@ def main():
     for i in range(1, 17):
         metric_result = calculate_metric(correlated_set[i], dataSet(i))
         metric_dict[i] = metric_result
+
+    # Generate the Markdown table for each dataset
+    with open('Metric.md', 'w') as f:
+        f.write("# Correlation Metrics\n\n")
+        for i in range(1, 17):
+            f.write(f"## DataSet {i}\n")
+            f.write("### Answer Column To First Column\n")
+            f.write("| Metric                        | Value                  |\n")
+            f.write("|-------------------------------|------------------------|\n")
+            for metric_name, metric_value in metric_dict[i]:
+                f.write(f"| {metric_name:<30} | {metric_value:<22} |\n")
+            f.write("\n")
     
     for i in range(1, 17):
-
         generate_permutations_and_save(correlated_set[i],f"./dataset_{i}.xlsx")
 
 
