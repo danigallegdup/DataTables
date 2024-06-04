@@ -2,7 +2,7 @@ from pptx import Presentation
 from pptx.util import Cm
 
 # Load the presentation
-presentation_path = 'task2_new.pptx'
+presentation_path = 'Correct_ready_4_format.pptx'
 presentation = Presentation(presentation_path)
 
 # Set the desired picture formatting
