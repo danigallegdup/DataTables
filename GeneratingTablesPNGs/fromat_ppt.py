@@ -2,7 +2,7 @@ from pptx import Presentation
 from pptx.util import Cm
 
 # Load the presentation
-presentation_path = 'Task2_format.pptx'
+presentation_path = 'task2_new.pptx'
 presentation = Presentation(presentation_path)
 
 # Set the desired picture formatting
@@ -29,4 +29,4 @@ for slide in presentation.slides:
             format_picture(shape)
 
 # Save the modified presentation
-presentation.save('formatted_task2.pptx')
+presentation.save('new_formatted_task2.pptx')

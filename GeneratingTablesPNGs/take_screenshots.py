@@ -6,9 +6,9 @@ from pygetwindow import getWindowsWithTitle
 
 # Base directory to save screenshots
 base_dir = "C:/Users/danig/Documents/GitHub/Research/DataTables/GeneratingTablesPNGs/Table_PNG/task2"
-file_name = "C:/Users/danig/Documents/GitHub/Research/DataTables/GeneratingTablesPNGs/Task2_format.pptm"
+file_name = "C:/Users/danig/Documents/GitHub/Research/DataTables/GeneratingTablesPNGs/new_formatted_task2.pptm"
 # C:/Users/danig/Documents/GitHub/Research/DataTables/GeneratingTablesPNGs/Task2_format.pptm
-#C:/Users/danig/Documents/GitHub/Research/DataTables/GeneratingTablesPNGs/Table_PNG/task2
+# GeneratingTablesPNGs\new_formatted_task2.pptm
 
 
 
