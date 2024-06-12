@@ -1,81 +1,81 @@
-task id,Table PNG,Table Rendering,Dataset Number,Topic,Condition,Repetition,Task
-1,DS1_anime_bar1.png,49,1,anime,bar,1,Filter
-1,DS2_anime_bar2.png,50,2,anime,bar,2,Filter
-1,DS3_anime_bar3.png,51,3,anime,bar,3,Filter
-1,DS4_anime_bar4.png,52,4,anime,bar,4,Filter
-1,DS5_cereal_color1.png,5,5,cereal,color,1,Filter
-1,DS6_cereal_color2.png,6,6,cereal,color,2,Filter
-1,DS7_cereal_color3.png,7,7,cereal,color,3,Filter
-1,DS8_cereal_color4.png,8,8,cereal,color,4,Filter
-1,DS9_candy_plain1.png,41,9,candy,plain,1,Filter
-1,DS10_candy_plain2.png,42,10,candy,plain,2,Filter
-1,DS11_candy_plain3.png,43,11,candy,plain,3,Filter
-1,DS12_candy_plain4.png,44,12,candy,plain,4,Filter
-1,DS13_movie_zebra1.png,29,13,movie,zebra,1,Filter
-1,DS14_movie_zebra2.png,30,14,movie,zebra,2,Filter
-1,DS15_movie_zebra3.png,31,15,movie,zebra,3,Filter
-1,DS16_movie_zebra4.png,32,16,movie,zebra,4,Filter
-2,DS1_anime_bar1.png,49,1,anime,bar,1,Correlation
-2,DS2_anime_bar2.png,50,2,anime,bar,2,Correlation
-2,DS3_anime_bar3.png,51,3,anime,bar,3,Correlation
-2,DS4_anime_bar4.png,52,4,anime,bar,4,Correlation
-2,DS5_cereal_color1.png,5,5,cereal,color,1,Correlation
-2,DS6_cereal_color2.png,6,6,cereal,color,2,Correlation
-2,DS7_cereal_color3.png,7,7,cereal,color,3,Correlation
-2,DS8_cereal_color4.png,8,8,cereal,color,4,Correlation
-2,DS9_candy_plain1.png,41,9,candy,plain,1,Correlation
-2,DS10_candy_plain2.png,42,10,candy,plain,2,Correlation
-2,DS11_candy_plain3.png,43,11,candy,plain,3,Correlation
-2,DS12_candy_plain4.png,44,12,candy,plain,4,Correlation
-2,DS13_movie_zebra1.png,29,13,movie,zebra,1,Correlation
-2,DS14_movie_zebra2.png,30,14,movie,zebra,2,Correlation
-2,DS15_movie_zebra3.png,31,15,movie,zebra,3,Correlation
-2,DS16_movie_zebra4.png,32,16,movie,zebra,4,Correlation
-3,DS1_anime_bar1.png,49,1,anime,bar,1,Sort
-3,DS2_anime_bar2.png,50,2,anime,bar,2,Sort
-3,DS3_anime_bar3.png,51,3,anime,bar,3,Sort
-3,DS4_anime_bar4.png,52,4,anime,bar,4,Sort
-3,DS5_cereal_color1.png,5,5,cereal,color,1,Sort
-3,DS6_cereal_color2.png,6,6,cereal,color,2,Sort
-3,DS7_cereal_color3.png,7,7,cereal,color,3,Sort
-3,DS8_cereal_color4.png,8,8,cereal,color,4,Sort
-3,DS9_candy_plain1.png,41,9,candy,plain,1,Sort
-3,DS10_candy_plain2.png,42,10,candy,plain,2,Sort
-3,DS11_candy_plain3.png,43,11,candy,plain,3,Sort
-3,DS12_candy_plain4.png,44,12,candy,plain,4,Sort
-3,DS13_movie_zebra1.png,29,13,movie,zebra,1,Sort
-3,DS14_movie_zebra2.png,30,14,movie,zebra,2,Sort
-3,DS15_movie_zebra3.png,31,15,movie,zebra,3,Sort
-3,DS16_movie_zebra4.png,32,16,movie,zebra,4,Sort
-4,DS1_anime_bar1.png,49,1,anime,bar,1,Estimate Average
-4,DS2_anime_bar2.png,50,2,anime,bar,2,Estimate Average
-4,DS3_anime_bar3.png,51,3,anime,bar,3,Estimate Average
-4,DS4_anime_bar4.png,52,4,anime,bar,4,Estimate Average
-4,DS5_cereal_color1.png,5,5,cereal,color,1,Estimate Average
-4,DS6_cereal_color2.png,6,6,cereal,color,2,Estimate Average
-4,DS7_cereal_color3.png,7,7,cereal,color,3,Estimate Average
-4,DS8_cereal_color4.png,8,8,cereal,color,4,Estimate Average
-4,DS9_candy_plain1.png,41,9,candy,plain,1,Estimate Average
-4,DS10_candy_plain2.png,42,10,candy,plain,2,Estimate Average
-4,DS11_candy_plain3.png,43,11,candy,plain,3,Estimate Average
-4,DS12_candy_plain4.png,44,12,candy,plain,4,Estimate Average
-4,DS13_movie_zebra1.png,29,13,movie,zebra,1,Estimate Average
-4,DS14_movie_zebra2.png,30,14,movie,zebra,2,Estimate Average
-4,DS15_movie_zebra3.png,31,15,movie,zebra,3,Estimate Average
-4,DS16_movie_zebra4.png,32,16,movie,zebra,4,Estimate Average
-5,DS1_anime_bar1.png,49,1,anime,bar,1,Retrieve Value
-5,DS2_anime_bar2.png,50,2,anime,bar,2,Retrieve Value
-5,DS3_anime_bar3.png,51,3,anime,bar,3,Retrieve Value
-5,DS4_anime_bar4.png,52,4,anime,bar,4,Retrieve Value
-5,DS5_cereal_color1.png,5,5,cereal,color,1,Retrieve Value
-5,DS6_cereal_color2.png,6,6,cereal,color,2,Retrieve Value
-5,DS7_cereal_color3.png,7,7,cereal,color,3,Retrieve Value
-5,DS8_cereal_color4.png,8,8,cereal,color,4,Retrieve Value
-5,DS9_candy_plain1.png,41,9,candy,plain,1,Retrieve Value
-5,DS10_candy_plain2.png,42,10,candy,plain,2,Retrieve Value
-5,DS11_candy_plain3.png,43,11,candy,plain,3,Retrieve Value
-5,DS12_candy_plain4.png,44,12,candy,plain,4,Retrieve Value
-5,DS13_movie_zebra1.png,29,13,movie,zebra,1,Retrieve Value
-5,DS14_movie_zebra2.png,30,14,movie,zebra,2,Retrieve Value
-5,DS15_movie_zebra3.png,31,15,movie,zebra,3,Retrieve Value
-5,DS16_movie_zebra4.png,32,16,movie,zebra,4,Retrieve Value
+Table PNG,Table Rendering,Dataset Number,Topic,Condition,Repetition,Header, Column
+DS1_anime_bar1.png,49,1,anime,bar,1,Completed,J
+DS2_anime_bar2.png,50,2,anime,bar,2,Members,I
+DS3_anime_bar3.png,51,3,anime,bar,3,Ranked,G
+DS4_anime_bar4.png,52,4,anime,bar,4,Score,K
+DS5_cereal_color1.png,5,5,cereal,color,1,Sodium,I
+DS6_cereal_color2.png,6,6,cereal,color,2,Carbo,H
+DS7_cereal_color3.png,7,7,cereal,color,3,Protein,J
+DS8_cereal_color4.png,8,8,cereal,color,4,Fat,K
+DS9_candy_plain1.png,41,9,candy,plain,1,Fruity,K
+DS10_candy_plain2.png,42,10,candy,plain,2,Rating,J
+DS11_candy_plain3.png,43,11,candy,plain,3,Pluribus,G
+DS12_candy_plain4.png,44,12,candy,plain,4,Nougat,I
+DS13_movie_zebra1.png,29,13,movie,zebra,1,Fandango,H
+DS14_movie_zebra2.png,30,14,movie,zebra,2,PluggedIn,I
+DS15_movie_zebra3.png,31,15,movie,zebra,3,Hulu,J
+DS16_movie_zebra4.png,32,16,movie,zebra,4,Metacritic,G
+DS1_anime_bar1.png,49,1,anime,bar,1,Completed,J
+DS2_anime_bar2.png,50,2,anime,bar,2,Members,I
+DS3_anime_bar3.png,51,3,anime,bar,3,Ranked,G
+DS4_anime_bar4.png,52,4,anime,bar,4,Score,K
+DS5_cereal_color1.png,5,5,cereal,color,1,Sodium,I
+DS6_cereal_color2.png,6,6,cereal,color,2,Carbo,H
+DS7_cereal_color3.png,7,7,cereal,color,3,Protein,J
+DS8_cereal_color4.png,8,8,cereal,color,4,Fat,K
+DS9_candy_plain1.png,41,9,candy,plain,1,Fruity,K
+DS10_candy_plain2.png,42,10,candy,plain,2,Rating,J
+DS11_candy_plain3.png,43,11,candy,plain,3,Pluribus,G
+DS12_candy_plain4.png,44,12,candy,plain,4,Nougat,I
+DS13_movie_zebra1.png,29,13,movie,zebra,1,Fandango,H
+DS14_movie_zebra2.png,30,14,movie,zebra,2,PluggedIn,I
+DS15_movie_zebra3.png,31,15,movie,zebra,3,Hulu,J
+DS16_movie_zebra4.png,32,16,movie,zebra,4,Metacritic,G
+DS1_anime_bar1.png,49,1,anime,bar,1,Completed,J
+DS2_anime_bar2.png,50,2,anime,bar,2,Members,I
+DS3_anime_bar3.png,51,3,anime,bar,3,Ranked,G
+DS4_anime_bar4.png,52,4,anime,bar,4,Score,K
+DS5_cereal_color1.png,5,5,cereal,color,1,Sodium,I
+DS6_cereal_color2.png,6,6,cereal,color,2,Carbo,H
+DS7_cereal_color3.png,7,7,cereal,color,3,Protein,J
+DS8_cereal_color4.png,8,8,cereal,color,4,Fat,K
+DS9_candy_plain1.png,41,9,candy,plain,1,Fruity,K
+DS10_candy_plain2.png,42,10,candy,plain,2,Rating,J
+DS11_candy_plain3.png,43,11,candy,plain,3,Pluribus,G
+DS12_candy_plain4.png,44,12,candy,plain,4,Nougat,I
+DS13_movie_zebra1.png,29,13,movie,zebra,1,Fandango,H
+DS14_movie_zebra2.png,30,14,movie,zebra,2,PluggedIn,I
+DS15_movie_zebra3.png,31,15,movie,zebra,3,Hulu,J
+DS16_movie_zebra4.png,32,16,movie,zebra,4,Metacritic,G
+DS1_anime_bar1.png,49,1,anime,bar,1,Completed,J
+DS2_anime_bar2.png,50,2,anime,bar,2,Members,I
+DS3_anime_bar3.png,51,3,anime,bar,3,Ranked,G
+DS4_anime_bar4.png,52,4,anime,bar,4,Score,K
+DS5_cereal_color1.png,5,5,cereal,color,1,Sodium,I
+DS6_cereal_color2.png,6,6,cereal,color,2,Carbo,H
+DS7_cereal_color3.png,7,7,cereal,color,3,Protein,J
+DS8_cereal_color4.png,8,8,cereal,color,4,Fat,K
+DS9_candy_plain1.png,41,9,candy,plain,1,Fruity,K
+DS10_candy_plain2.png,42,10,candy,plain,2,Rating,J
+DS11_candy_plain3.png,43,11,candy,plain,3,Pluribus,G
+DS12_candy_plain4.png,44,12,candy,plain,4,Nougat,I
+DS13_movie_zebra1.png,29,13,movie,zebra,1,Fandango,H
+DS14_movie_zebra2.png,30,14,movie,zebra,2,PluggedIn,I
+DS15_movie_zebra3.png,31,15,movie,zebra,3,Hulu,J
+DS16_movie_zebra4.png,32,16,movie,zebra,4,Metacritic,G
+DS1_anime_bar1.png,49,1,anime,bar,1,Completed,J
+DS2_anime_bar2.png,50,2,anime,bar,2,Members,I
+DS3_anime_bar3.png,51,3,anime,bar,3,Ranked,G
+DS4_anime_bar4.png,52,4,anime,bar,4,Score,K
+DS5_cereal_color1.png,5,5,cereal,color,1,Sodium,I
+DS6_cereal_color2.png,6,6,cereal,color,2,Carbo,H
+DS7_cereal_color3.png,7,7,cereal,color,3,Protein,J
+DS8_cereal_color4.png,8,8,cereal,color,4,Fat,K
+DS9_candy_plain1.png,41,9,candy,plain,1,Fruity,K
+DS10_candy_plain2.png,42,10,candy,plain,2,Rating,J
+DS11_candy_plain3.png,43,11,candy,plain,3,Pluribus,G
+DS12_candy_plain4.png,44,12,candy,plain,4,Nougat,I
+DS13_movie_zebra1.png,29,13,movie,zebra,1,Fandango,H
+DS14_movie_zebra2.png,30,14,movie,zebra,2,PluggedIn,I
+DS15_movie_zebra3.png,31,15,movie,zebra,3,Hulu,J
+DS16_movie_zebra4.png,32,16,movie,zebra,4,Metacritic,G
