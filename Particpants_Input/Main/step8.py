@@ -22,7 +22,7 @@ for file1, file2 in zip(path1_files, path2_files):
     file2_path = os.path.join(path2, file2)
     output_file_path = os.path.join(output_path, f'merged_{file1}')
 
-    # Read the CSV files
+    # Read the CSV filesg
     df1 = pd.read_csv(file1_path)
     df2 = pd.read_csv(file2_path)
 

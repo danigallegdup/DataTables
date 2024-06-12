@@ -38,11 +38,11 @@ os.makedirs(output_directory, exist_ok=True)
 
 # Define the column ranges for subsets
 subsets = [
-    ("1Header", "1Answer Column / Row"),
-    ("2Header", " 2Answer Column / Row"),
-    ("3Header", " 3Answer Column / Row"),
-    (" 4Header", "4Answer Column / Row"),
-    (" 5Header", "5Answer Column / Row")
+    ("Header1", "Answer Column / Row1"),
+    (" Header2", "Answer Column / Row2"),
+    ("Header3", " Answer Column / Row3"),
+    (" Header4", " Answer Column / Row4"),
+    (" Header5", " Answer Column / Row5")
 ]
 
 # Process all CSV files in the input directory
