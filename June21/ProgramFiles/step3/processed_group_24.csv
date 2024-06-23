@@ -1,0 +1,81 @@
+Task ID,Table PNG,Table Rendering,Dataset Number,Topic,Condition,Repetition,Task
+1,DS1_anime_zebra1.png,17,1,anime,zebra,1,Filter
+1,DS2_anime_zebra2.png,18,2,anime,zebra,2,Filter
+1,DS3_anime_zebra3.png,19,3,anime,zebra,3,Filter
+1,DS4_anime_zebra4.png,20,4,anime,zebra,4,Filter
+1,DS5_cereal_plain1.png,37,5,cereal,plain,1,Filter
+1,DS6_cereal_plain2.png,38,6,cereal,plain,2,Filter
+1,DS7_cereal_plain3.png,39,7,cereal,plain,3,Filter
+1,DS8_cereal_plain4.png,40,8,cereal,plain,4,Filter
+1,DS9_candy_color1.png,9,9,candy,color,1,Filter
+1,DS10_candy_color2.png,10,10,candy,color,2,Filter
+1,DS11_candy_color3.png,11,11,candy,color,3,Filter
+1,DS12_candy_color4.png,12,12,candy,color,4,Filter
+1,DS13_movie_bar1.png,61,13,movie,bar,1,Filter
+1,DS14_movie_bar2.png,62,14,movie,bar,2,Filter
+1,DS15_movie_bar3.png,63,15,movie,bar,3,Filter
+1,DS16_movie_bar4.png,64,16,movie,bar,4,Filter
+2,DS1_anime_zebra1.png,17,1,anime,zebra,1,Correlation
+2,DS2_anime_zebra2.png,18,2,anime,zebra,2,Correlation
+2,DS3_anime_zebra3.png,19,3,anime,zebra,3,Correlation
+2,DS4_anime_zebra4.png,20,4,anime,zebra,4,Correlation
+2,DS5_cereal_plain1.png,37,5,cereal,plain,1,Correlation
+2,DS6_cereal_plain2.png,38,6,cereal,plain,2,Correlation
+2,DS7_cereal_plain3.png,39,7,cereal,plain,3,Correlation
+2,DS8_cereal_plain4.png,40,8,cereal,plain,4,Correlation
+2,DS9_candy_color1.png,9,9,candy,color,1,Correlation
+2,DS10_candy_color2.png,10,10,candy,color,2,Correlation
+2,DS11_candy_color3.png,11,11,candy,color,3,Correlation
+2,DS12_candy_color4.png,12,12,candy,color,4,Correlation
+2,DS13_movie_bar1.png,61,13,movie,bar,1,Correlation
+2,DS14_movie_bar2.png,62,14,movie,bar,2,Correlation
+2,DS15_movie_bar3.png,63,15,movie,bar,3,Correlation
+2,DS16_movie_bar4.png,64,16,movie,bar,4,Correlation
+3,DS1_anime_zebra1.png,17,1,anime,zebra,1,Sort
+3,DS2_anime_zebra2.png,18,2,anime,zebra,2,Sort
+3,DS3_anime_zebra3.png,19,3,anime,zebra,3,Sort
+3,DS4_anime_zebra4.png,20,4,anime,zebra,4,Sort
+3,DS5_cereal_plain1.png,37,5,cereal,plain,1,Sort
+3,DS6_cereal_plain2.png,38,6,cereal,plain,2,Sort
+3,DS7_cereal_plain3.png,39,7,cereal,plain,3,Sort
+3,DS8_cereal_plain4.png,40,8,cereal,plain,4,Sort
+3,DS9_candy_color1.png,9,9,candy,color,1,Sort
+3,DS10_candy_color2.png,10,10,candy,color,2,Sort
+3,DS11_candy_color3.png,11,11,candy,color,3,Sort
+3,DS12_candy_color4.png,12,12,candy,color,4,Sort
+3,DS13_movie_bar1.png,61,13,movie,bar,1,Sort
+3,DS14_movie_bar2.png,62,14,movie,bar,2,Sort
+3,DS15_movie_bar3.png,63,15,movie,bar,3,Sort
+3,DS16_movie_bar4.png,64,16,movie,bar,4,Sort
+4,DS1_anime_zebra1.png,17,1,anime,zebra,1,Estimate Average
+4,DS2_anime_zebra2.png,18,2,anime,zebra,2,Estimate Average
+4,DS3_anime_zebra3.png,19,3,anime,zebra,3,Estimate Average
+4,DS4_anime_zebra4.png,20,4,anime,zebra,4,Estimate Average
+4,DS5_cereal_plain1.png,37,5,cereal,plain,1,Estimate Average
+4,DS6_cereal_plain2.png,38,6,cereal,plain,2,Estimate Average
+4,DS7_cereal_plain3.png,39,7,cereal,plain,3,Estimate Average
+4,DS8_cereal_plain4.png,40,8,cereal,plain,4,Estimate Average
+4,DS9_candy_color1.png,9,9,candy,color,1,Estimate Average
+4,DS10_candy_color2.png,10,10,candy,color,2,Estimate Average
+4,DS11_candy_color3.png,11,11,candy,color,3,Estimate Average
+4,DS12_candy_color4.png,12,12,candy,color,4,Estimate Average
+4,DS13_movie_bar1.png,61,13,movie,bar,1,Estimate Average
+4,DS14_movie_bar2.png,62,14,movie,bar,2,Estimate Average
+4,DS15_movie_bar3.png,63,15,movie,bar,3,Estimate Average
+4,DS16_movie_bar4.png,64,16,movie,bar,4,Estimate Average
+5,DS1_anime_zebra1.png,17,1,anime,zebra,1,Retrieve Value
+5,DS2_anime_zebra2.png,18,2,anime,zebra,2,Retrieve Value
+5,DS3_anime_zebra3.png,19,3,anime,zebra,3,Retrieve Value
+5,DS4_anime_zebra4.png,20,4,anime,zebra,4,Retrieve Value
+5,DS5_cereal_plain1.png,37,5,cereal,plain,1,Retrieve Value
+5,DS6_cereal_plain2.png,38,6,cereal,plain,2,Retrieve Value
+5,DS7_cereal_plain3.png,39,7,cereal,plain,3,Retrieve Value
+5,DS8_cereal_plain4.png,40,8,cereal,plain,4,Retrieve Value
+5,DS9_candy_color1.png,9,9,candy,color,1,Retrieve Value
+5,DS10_candy_color2.png,10,10,candy,color,2,Retrieve Value
+5,DS11_candy_color3.png,11,11,candy,color,3,Retrieve Value
+5,DS12_candy_color4.png,12,12,candy,color,4,Retrieve Value
+5,DS13_movie_bar1.png,61,13,movie,bar,1,Retrieve Value
+5,DS14_movie_bar2.png,62,14,movie,bar,2,Retrieve Value
+5,DS15_movie_bar3.png,63,15,movie,bar,3,Retrieve Value
+5,DS16_movie_bar4.png,64,16,movie,bar,4,Retrieve Value
